@@ -27,7 +27,6 @@ export default function Projects ( ){
          </SimpleGrid>  
 
 
-
          <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Freshly.com</Text>
@@ -72,7 +71,6 @@ export default function Projects ( ){
                 </Flex>
             </Box>
          </SimpleGrid>  
-
 
 
          <Flex  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>

@@ -43,24 +43,24 @@ export default function Skills ( ) {
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '35px', md : '45px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
             <SimpleGrid columns={[4,2,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
             <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
-                <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Node.Js</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Node.Js</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg'/>
-                <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Mongodb</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Mongodb</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' shadow='lg'/>
-                <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Express</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Express</Text>
                 </Box>
 
             
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
-                <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
                 </GridItem>
             </SimpleGrid>
             
