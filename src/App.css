@@ -25,4 +25,6 @@
 
 .refClick {
   cursor: pointer;
+  font-weight: 600;
+  /* color: #805AD5; */
 }

@@ -3,7 +3,7 @@ import { useContext, useRef } from 'react';
 import { AppContext } from './Context/AppContext';
 import Profile from './Components/Profile';
 import About from './Components/About';
-import { Box, Flex, Image, Switch, Text } from '@chakra-ui/react';
+import { border, Box, Flex, Image, Switch, Text } from '@chakra-ui/react';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
@@ -19,7 +19,7 @@ function App() {
   const style = {
     light : {
       backgroundColor : 'white', 
-      color : 'black'
+      color : '#805AD5'
     },
 
     dark : {
@@ -50,7 +50,7 @@ function App() {
       top : ref.current.offsetTop,
       behavior : 'smooth'
     })
-    
+
   }
   return (
     <div className="App" style={Theme ==='light'? light : dark} >
@@ -61,11 +61,11 @@ function App() {
             </Box>
 
             <Flex  gap={{base : '18px', md : '35px'}} fontSize={{base : '12px', md : '18px'}} padding='5px' justifyContent='center' alignItems='center'>
-                    <Text onClick={( ) => HandleScrollTo(ProfileRef)}  className='refClick' size='sm' >Home</Text>
-                    <Text onClick={( ) => HandleScrollTo(AboutRef)}  className='refClick' size='sm'>About</Text>
-                    <Text onClick={( ) => HandleScrollTo(SkillsRef)}  className='refClick' size='sm'>Skills</Text>
-                    <Text onClick={( ) => HandleScrollTo(ProjectRef)}  className='refClick' size='sm'>Projects</Text>
-                    <Text onClick={( ) => HandleScrollTo(ContactRef)}  className='refClick' size='sm'>Contact</Text>
+                    <Text  onClick={( ) => HandleScrollTo(ProfileRef)}  className='refClick' size='sm' >Home</Text>
+                    <Text  onClick={( ) => HandleScrollTo(AboutRef)}  className='refClick' size='sm'>About</Text>
+                    <Text  onClick={( ) => HandleScrollTo(SkillsRef)}  className='refClick' size='sm'>Skills</Text>
+                    <Text  onClick={( ) => HandleScrollTo(ProjectRef)}  className='refClick' size='sm'>Projects</Text>
+                    <Text  onClick={( ) => HandleScrollTo(ContactRef)}  className='refClick' size='sm'>Contact</Text>
                     <Switch colorScheme='purple' onChange={ToggleTheme}   className='refClick' size={{base :'sm' , md : 'md'}} id='email-alerts' />        
             </Flex>
         </Flex>
