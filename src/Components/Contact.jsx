@@ -27,7 +27,7 @@ export default function Contact ( ){
                 </Box>
 
                 <Box>
-                   <a href="mailto:heyabrarkhan@gmail.com"><Text><GrMail/></Text></a>
+                   <a href="mailto:heyabrarkhan@email.com"><Text><GrMail/></Text></a>
                 </Box>
             </Flex>
         </Box>
