@@ -40,7 +40,7 @@ export default function Skills ( ) {
                 </GridItem>
             </SimpleGrid>
 
-            <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '35px', md : '45px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
+            <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
             <SimpleGrid columns={[4,2,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
             <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
@@ -62,6 +62,20 @@ export default function Skills ( ) {
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
                 </GridItem>
+            </SimpleGrid>
+
+
+            <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '60px', md : '80px', lg :'10%'}} letterSpacing={{base : '3px'}}>VERSION CONTROL</Text>
+            <SimpleGrid columns={[2,2,2,2]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '45%'}} m='auto'>
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git Hub</Text>
+                </Box>
+
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
+                </Box>
             </SimpleGrid>
             
         </Box>
