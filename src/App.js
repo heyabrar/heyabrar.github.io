@@ -3,10 +3,11 @@ import { useContext, useRef } from 'react';
 import { AppContext } from './Context/AppContext';
 import Profile from './Components/Profile';
 import About from './Components/About';
-import { border, Box, Flex, Image, Switch, Text } from '@chakra-ui/react';
+import { border, Box, Flex, Image, Switch, Text, theme } from '@chakra-ui/react';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import {BsFillSunFill,BsFillMoonFill} from 'react-icons/bs'
 
 function App() {
   const ProfileRef = useRef(null);
@@ -15,7 +16,7 @@ function App() {
   const ProjectRef = useRef(null);
   const ContactRef = useRef(null)
   const {Theme,SetTheme,ToggleTheme} = useContext(AppContext);
-
+console.log(Theme)
   const style = {
     light : {
       backgroundColor : 'white', 
@@ -66,7 +67,7 @@ function App() {
                     <Text  onClick={( ) => HandleScrollTo(SkillsRef)}  className='refClick' size='sm'>Skills</Text>
                     <Text  onClick={( ) => HandleScrollTo(ProjectRef)}  className='refClick' size='sm'>Projects</Text>
                     <Text  onClick={( ) => HandleScrollTo(ContactRef)}  className='refClick' size='sm'>Contact</Text>
-                    <Switch colorScheme='purple' onChange={ToggleTheme}   className='refClick' size={{base :'sm' , md : 'md'}} id='email-alerts' />        
+                    <Text onClick={ToggleTheme}>{ Theme === 'light' ? <BsFillSunFill/> : <BsFillMoonFill/>}</Text>
             </Flex>
         </Flex>
      
