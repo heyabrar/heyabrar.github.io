@@ -21,8 +21,8 @@ export default function GitCalenderOffical ( ){
       };
     return(
         <>
-         <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>GITHUB CALENDER</Text>
-        <Flex width={{base : '90%', md :'80%', lg : '70%'}} justifyContent='center' alignItems='center'  m='auto' mt={{base : '10px', md :'20px    '}}>
+         <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '40px', lg :'55px'}} letterSpacing={{base : '3px'}}>GITHUB CALENDER</Text>
+        <Flex width={{base : '90%', md :'80%', lg : '70%'}} justifyContent='center' alignItems='center'  m='auto' mt={{base : '10px', md :'20px'}}>
            <GitHubCalendar username="heyabrar" year={new Date().getFullYear()} transformData={selectLastHalfYear} > <ReactToolTip delayShow={20} html/> </GitHubCalendar>
         </Flex>
         </>

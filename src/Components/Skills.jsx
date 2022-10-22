@@ -82,11 +82,11 @@ export default function Skills ( ) {
         </Box>
 
         <Box>
-            <GitCalenderOffical/>
-        </Box>
-
-        <Box>
             <GitStats/> 
+        </Box>
+        
+        <Box>
+            <GitCalenderOffical/>
         </Box>
         </>
     )
