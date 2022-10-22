@@ -1,13 +1,15 @@
 import { Box, Flex, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import GitCalenderOffical from "./GitHubCalender";
+import GitStats from "./GitStats";
 
 export default function Skills ( ) {
     return (
         <>
         <Box w={{base : '95%', md :'90%', lg : '80%'}} m='auto' mt='5%'>
-        <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Skills</Text>
+         <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Skills</Text>
 
         <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '10px', md : '20px', lg :'35px'}} letterSpacing={{base : '3px'}}>FRONT END </Text>
-            <SimpleGrid columns={[3,3,3,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
+            <SimpleGrid columns={[3,3,3,6]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px' mt={{base :'5px', md :'10px'}}>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >  
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg'/>
@@ -65,8 +67,8 @@ export default function Skills ( ) {
             </SimpleGrid>
 
 
-            <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '60px', md : '80px', lg :'10%'}} letterSpacing={{base : '3px'}}>VERSION CONTROL</Text>
-            <SimpleGrid columns={[2,2,2,2]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '45%'}} m='auto'>
+            <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '60px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>VERSION CONTROL</Text>
+            <SimpleGrid columns={[2,2,2,2]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '45%'}} m='auto' mt={{base : '5px', md : '10px'}}>
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git Hub</Text>
@@ -77,7 +79,14 @@ export default function Skills ( ) {
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
                 </Box>
             </SimpleGrid>
-            
+        </Box>
+
+        <Box>
+            <GitCalenderOffical/>
+        </Box>
+
+        <Box>
+            <GitStats/> 
         </Box>
         </>
     )
