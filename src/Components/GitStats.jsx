@@ -18,7 +18,7 @@ export default function  GitStats  ( ) {
         </Box>
       </Flex>
 
-     <Flex  w={{base : '70%', md : '80%', lg :'30%'}}  m='auto' mt={{base : '13px', md :'25px'}} justifyContent='center' alignItems='center'> 
+     <Flex  w={{base : '70%', md : '80%', lg :'30%'}}  m='auto' mt={{base : '15px', md :'25px'}} justifyContent='center' alignItems='center'> 
         <Box>
             <a href="https://github.com/heyabrar">
                 <Image width={{base : '250px', md : '260px', lg : '350px'}} src="https://github-readme-stats.vercel.app/api/top-langs/?username=heyabrar"/>
