@@ -8,7 +8,6 @@ export default function AppContextProvider ({children}){
 
     const ToggleTheme = ( ) =>{
         SetTheme(Theme === 'light' ? 'dark' : 'light')
-       
     }
         return (
         <>

@@ -2,6 +2,7 @@ import { Box, Flex, Text } from "@chakra-ui/react";
 import {BsLinkedin,BsTwitter,BsGithub} from 'react-icons/bs'
 import {AiOutlinePhone} from 'react-icons/ai'
 import {GrMail} from 'react-icons/gr'
+import CopyRight from "./CopyRight";
 
 export default function Contact ( ){
     return(
@@ -26,6 +27,10 @@ export default function Contact ( ){
                    <a href="mailto:heyabrarkhan@email.com"><Text><GrMail/></Text></a>
                 </Box>
             </Flex>
+        </Box>
+
+        <Box  width={{base : '50%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'30px', lg : '50px'}}>
+            <CopyRight/>
         </Box>
         </>
     )
