@@ -15,10 +15,6 @@ export default function Contact ( ){
                 </Box>
 
                 <Box>
-                   <a href="https://twitter.com/_iam_a_k" target='_blank'> <Text><BsTwitter/></Text></a>
-                </Box>
-
-                <Box>
                    <a href="https://github.com/heyabrar" target='_blank'><Text><BsGithub/></Text></a>
                 </Box>
 

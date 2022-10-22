@@ -67,7 +67,7 @@ console.log(Theme)
                     <Text  onClick={( ) => HandleScrollTo(SkillsRef)}  className='refClick' size='sm'>Skills</Text>
                     <Text  onClick={( ) => HandleScrollTo(ProjectRef)}  className='refClick' size='sm'>Projects</Text>
                     <Text  onClick={( ) => HandleScrollTo(ContactRef)}  className='refClick' size='sm'>Contact</Text>
-                    <Text onClick={ToggleTheme}>{ Theme === 'light' ? <BsFillSunFill/> : <BsFillMoonFill/>}</Text>
+                    <Text onClick={ToggleTheme} className='DayNightButton'>{ Theme === 'light' ? <BsFillSunFill/> : <BsFillMoonFill/>}</Text>
             </Flex>
         </Flex>
      
