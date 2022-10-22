@@ -77,8 +77,8 @@ export default function Projects ( ){
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Shopme.com</Text>
                 <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
-                Shopme.com is not a clone of an existing website. The design is inspired by multiple websites. 
-                Basically Shopme.com is a E-commerce clothing web application where user get a collection of mens, women and kids clothing.
+                Shopme.com is not a clone of an existing website. The design is inspired by multiple clothing sites. 
+                Basically Shopme.com is a E-commerce clothing web application where user gets a collection of mens, women and kids clothing.
                 </Text>
                 <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Individual project built and executed  in 1 Day</Text>
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
