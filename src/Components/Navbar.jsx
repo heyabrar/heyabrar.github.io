@@ -57,7 +57,6 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              
               <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Text>Resume</Text> </a>
             </Flex>
           </Flex>
@@ -73,7 +72,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <Text>Resume</Text>
+              <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Text cursor='pointer'>Resume</Text></a>
             </Stack>
           </Box>
         ) : null}
