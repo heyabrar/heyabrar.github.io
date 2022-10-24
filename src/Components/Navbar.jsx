@@ -24,20 +24,6 @@ import { AppContext } from '../Context/AppContext';
 
 const Links = ['Dashboard', 'Projects', 'Team'];
 
-// const NavLink = ({ children }: { children: ReactNode }) => (
-//   <Link
-//     px={2}
-//     py={1}
-//     rounded={'md'}
-//     _hover={{
-//       textDecoration: 'none',
-//       bg: useColorModeValue('gray.200', 'gray.700'),
-//     }}
-//     href={'#'}>
-//     {children}
-//   </Link>
-// );
-
 export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {Theme,ToggleTheme} = useContext(AppContext)
@@ -53,7 +39,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
   }
   return (
     <>
-      <Box px={4} style={Theme ==='light'? light : dark} className='ChackraNavBar'>
+      <Box px={4} style={Theme ==='light'? light : dark} className='ChackraNavBar' shadow='lg'>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton style={Theme ==='light'? light : dark}
             size={'md'}
@@ -73,6 +59,8 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
+              
+              <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Text>Resume</Text> </a>
             </Flex>
           </Flex>
             <Box width='5%' justifyContent={'center'} display='flex'>
@@ -87,6 +75,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
+              <Text>Resume</Text>
             </Stack>
           </Box>
         ) : null}

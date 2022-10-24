@@ -28,10 +28,9 @@ import { AppContext } from '../Context/AppContext';
     return (
       <Center py={6} style={Theme === 'light' ? light : dark}>
         <Box style={Theme === 'light' ? light : dark}
-          maxW={{base : '320px', md : '400px'}}
+          maxW={{base : '350px', md : '450px', lg : '500px'}}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
-          boxShadow={'2xl'}
           rounded={'lg'}
           p={6}
           textAlign={'center'}>
@@ -68,16 +67,16 @@ import { AppContext } from '../Context/AppContext';
               w='100%   '
               fontSize={'sm'}
               rounded={'full'}
-              bg={'blue.400'}
+              bg={'#805AD5'}
               color={'white'}
               boxShadow={
                 '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
               }
               _hover={{
-                bg: 'blue.500',
+                bg: '#805AD5',
               }}
               _focus={{
-                bg: 'blue.500',
+                bg: '#805AD5',
               }}>
               Follow
             </Button>
