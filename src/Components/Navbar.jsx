@@ -22,8 +22,6 @@ import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { AppContext } from '../Context/AppContext';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
-
 export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {Theme,ToggleTheme} = useContext(AppContext)

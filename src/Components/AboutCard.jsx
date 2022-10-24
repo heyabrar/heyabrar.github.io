@@ -26,16 +26,16 @@ import { AppContext } from '../Context/AppContext';
       color : 'white'
     }
     return (
-      <Center py={6} style={Theme === 'light' ? light : dark}>
+        <>
+    <Text color='#805AD5' fontSize={{base : '22px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}} textAlign='center'>About Me</Text>
+    <Center  style={Theme === 'light' ? light : dark}>
         <Box style={Theme === 'light' ? light : dark}
           maxW={{base : '350px', md : '450px', lg : '500px'}}
           w={'full'}
           bg={useColorModeValue('white', 'gray.900')}
           rounded={'lg'}
-          p={6}
           textAlign={'center'}>
 
-          <Heading fontSize={'2xl'} fontFamily={'body'}>Abrar Khan</Heading>
           <Text fontWeight={600} color={'gray.500'} mb={4}> @Abrar_Khan</Text>
           <Text textAlign={'center'} color={useColorModeValue('gray.700', 'gray.400')} px={3} style={Theme === 'light' ? light : dark}>
              Ambitious and an aspiring Full-stack Web Developer with core knowledge of 
@@ -84,5 +84,6 @@ import { AppContext } from '../Context/AppContext';
           </Stack>
         </Box>
       </Center>
+      </>
     );
   }

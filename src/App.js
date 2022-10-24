@@ -2,8 +2,7 @@ import './App.css';
 import { useContext, useRef } from 'react';
 import { AppContext } from './Context/AppContext';
 import Profile from './Components/Profile';
-import About from './Components/About';
-import {  Box, Flex, Image, Text } from '@chakra-ui/react';
+import {  Box } from '@chakra-ui/react';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
@@ -55,7 +54,7 @@ function App() {
       <Profile/>
      </Box>
 
-     <Box mt={{base : '10%', md: '7%'}} ref={AboutRef}>
+     <Box mt={{base : '7%', md: '7%'}} ref={AboutRef}>
       {/* <About/> */}
       <SocialProfileSimple/>
      </Box>
