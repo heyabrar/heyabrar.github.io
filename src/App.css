@@ -4,6 +4,12 @@
   z-index: 99;
 }
 
+.ChackraNavBar{
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
 .cardImg{
   display: inline-block;
   position: relative;
