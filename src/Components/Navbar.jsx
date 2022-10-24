@@ -40,13 +40,13 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
       <Box px={4} style={Theme ==='light'? light : dark} className='ChackraNavBar' shadow='lg'>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton style={Theme ==='light'? light : dark}
-            size={'md'}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-            aria-label={'Open Menu'}
+            size='lg'
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon fontSize='30px'/>}
+            aria-label='Open Menu'
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <Flex justifyContent={'space-between'} w='90%' m={'auto'} color='#RGBA(0, 0, 0, 0.64)'>
+          <Flex justifyContent={'space-between'} alignItems='center' w='90%' m={'auto'} color='#RGBA(0, 0, 0, 0.64)'>
             <Box p='5px'>
                 { Theme === 'light' ? <Image  width={{base : '30px', md : '40px'}} src="https://logodix.com/logo/2067253.png"/> : 
                 <Image width={{base : '40px', md : '55px'}}  src="https://i.pinimg.com/originals/00/f7/8e/00f78e1fcdaecabd16c18818e7dcbfff.jpg"/>}
