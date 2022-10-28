@@ -9,7 +9,7 @@ export default function Skills ( ) {
          <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Skills</Text>
 
         <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '10px', md : '20px', lg :'35px'}} letterSpacing={{base : '3px'}}>FRONT END </Text>
-            <SimpleGrid columns={[3,3,3,6]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px' mt={{base :'5px', md :'10px'}}>
+            <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='30px' mt={{base :'5px', md :'10px'}}>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >  
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg'/>
@@ -36,14 +36,24 @@ export default function Skills ( ) {
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Redux</Text>
                 </GridItem>
 
+                <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
+                </GridItem>
+
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>NPM</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Figma</Text>
+                </GridItem>
+
+                <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://www.coffeeclass.io/logos/chakra-ui.png' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Chakra UI</Text>
                 </GridItem>
             </SimpleGrid>
 
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
-            <SimpleGrid columns={[4,2,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
+            <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
             <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Node.Js</Text>
@@ -59,10 +69,10 @@ export default function Skills ( ) {
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Express</Text>
                 </Box>
 
-            
+        
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg' shadow='lg'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>NPM</Text>
                 </GridItem>
             </SimpleGrid>
 

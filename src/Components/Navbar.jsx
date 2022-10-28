@@ -1,24 +1,14 @@
-import { ReactNode, useContext } from 'react';
+import { useContext } from 'react';
 import {
   Box,
   Flex,
-  Avatar,
-  HStack,
-  Link,
   IconButton,
-  Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
-  useColorModeValue,
   Stack,
   Text,
   Image,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
 import { AppContext } from '../Context/AppContext';
 
