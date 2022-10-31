@@ -41,7 +41,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
                 { Theme === 'light' ? <Image  width={{base : '30px', md : '40px'}} src="https://logodix.com/logo/2067253.png"/> : 
                 <Image width={{base : '40px', md : '55px'}}  src="https://i.pinimg.com/originals/00/f7/8e/00f78e1fcdaecabd16c18818e7dcbfff.jpg"/>}
             </Box>
-            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='#805AD5' fontWeight='600'>
+            <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='#805AD5' fontWeight='650'>
               <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
               <Text onClick={AboutRef} cursor='pointer'>About</Text>
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
@@ -56,7 +56,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
         </Flex> 
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }} style={Theme ==='light'? light : dark}>
-            <Stack as={'nav'} spacing={4}>
+            <Stack as={'nav'} spacing={4} color='#805AD5' fontWeight='600'>
               <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
               <Text onClick={AboutRef} cursor='pointer'>About</Text>
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
