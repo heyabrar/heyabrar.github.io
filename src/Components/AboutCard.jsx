@@ -12,6 +12,7 @@ import {
   } from '@chakra-ui/react';
 import { useContext } from 'react';
 import { AppContext } from '../Context/AppContext';
+import LinkedinButton from './LinkedInFollowBtn';
   
   export default function SocialProfileSimple() {
     const {Theme} = useContext(AppContext);
@@ -60,27 +61,8 @@ import { AppContext } from '../Context/AppContext';
             </Badge>
           </Stack>
   
-          <Stack mt={8} direction={'row'} spacing={4}>
-           <a href="https://www.linkedin.com/in/abrar-khan-b67333230/" target='_blank' style={{width : '90%', margin:'auto'}}>
-           <Button
-              flex={1}
-              w='100%   '
-              fontSize={'sm'}
-              rounded={'full'}
-              bg={'#805AD5'}
-              color={'white'}
-              boxShadow={
-                '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
-              }
-              _hover={{
-                bg: '#805AD5',
-              }}
-              _focus={{
-                bg: '#805AD5',
-              }}>
-              Follow
-            </Button>
-           </a>
+          <Stack mt={1} direction={'row'} spacing={4} >
+           <a href="https://www.linkedin.com/in/abrar-khan-b67333230/" target='_blank' style={{width : '90%', margin:'auto'}}><LinkedinButton/></a>
           </Stack>
         </Box>
       </Center>
