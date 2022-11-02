@@ -16,7 +16,7 @@ export default function Profile ( ){
                 <Text color='#RGBA(0, 0, 0, 0.64)'> <b>Myself</b> <b style={{color:'#805AD5'}}>Abrar Khan</b></Text>
                 </Flex>
                 <Text color='#RGBA(0, 0, 0, 0.64)   '><b>MERN Developer</b></Text>
-               <a href="https://drive.google.com/file/d/1XAf4Biiec2Pdo0m7ZTM6Dn-4M6BkCxzj/view?usp=sharing" target='_blank'><Button size={{base : 'sm', md : 'md' ,lg :'lg'}}mt={{base : '10px', md :'0'}} colorScheme='purple'>Resume</Button></a>
+               <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Button size={{base : 'sm', md : 'md' ,lg :'lg'}}mt={{base : '10px', md :'0'}} colorScheme='purple'>Resume</Button></a>
             </Box>
 
             <Box>
