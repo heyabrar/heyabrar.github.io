@@ -14,7 +14,7 @@ import LinkedinButton from './LinkedInFollowBtn';
     const {Theme} = useContext(AppContext);
 
     const light = {
-      backgroundColor : 'white',
+      backgroundColor : '#E9D8FD',
       color : 'black'
     }
   

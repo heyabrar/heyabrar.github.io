@@ -18,7 +18,7 @@ function App() {
   const {Theme} = useContext(AppContext);
 
   const light = {
-    backgroundColor : 'white',
+    backgroundColor : '#E9D8FD',
     color : 'black'
   }
 
@@ -41,7 +41,7 @@ function App() {
     })
   };
   return (
-    <div className="App" style={Theme ==='light'? light : dark} >
+    <Box className="App" style={Theme ==='light'? light : dark}>
       <Navbar 
       ProfileRef={( ) =>HandleScrollTo(ProfileRef)} 
       AboutRef={( )=> HandleScrollTo(AboutRef)} 
@@ -55,7 +55,7 @@ function App() {
      </Box>
 
      <Box mt={{base : '7%', md: '7%'}} ref={AboutRef}>
-      {/* <About/> */}
+
       <SocialProfileSimple/>
      </Box>
 
@@ -70,7 +70,7 @@ function App() {
      <Box mt={{base : '7%', md : '7%', lg : '5%' }} ref={ContactRef}>
       <Contact/>
      </Box>
-    </div>
+    </Box>
   );
 }
 
