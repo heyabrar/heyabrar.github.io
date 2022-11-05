@@ -2,7 +2,7 @@ import './App.css';
 import { useContext, useRef } from 'react';
 import { AppContext } from './Context/AppContext';
 import Profile from './Components/Profile';
-import {  Box } from '@chakra-ui/react';
+import {  Box, Button } from '@chakra-ui/react';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
@@ -25,13 +25,6 @@ function App() {
   const dark = {
     backgroundColor : 'black',
     color : 'white'
-  }
-
-  const HandleScrollToDefault = ( ) =>{
-    window.scrollTo({
-      top : document.documentElement.scrollHeight,
-      behavior : 'smooth'
-    })
   }
 
   const HandleScrollTo = (ref) =>{
