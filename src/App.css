@@ -37,3 +37,21 @@
 .DayNightButton{
   cursor: pointer;
 }
+
+  /* Scroll Bar */
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 0px;
+    border: 1px solid red;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    width: 50px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #9F7AEA;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9F7AEA;
+  }
