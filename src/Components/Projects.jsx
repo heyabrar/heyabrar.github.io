@@ -8,7 +8,7 @@ export default function Projects ( ){
          <SimpleGrid columns={[1,1,1,2]}  w={{base : '85%', md: '80%', lg : '80%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '15px'}} p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box className="cardImg" m='auto'>
                 <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/195987381-d7a8e571-2cd5-43d2-9945-5800aac0819f.png" alt="Front Img" borderRadius='8px'/>
-                <Image src="https://user-images.githubusercontent.com/103938174/193416543-a2f189f0-05d8-4c3e-95d4-96181acda2e1.png" alt="Back Img" class="imgTop"/>
+                <Image src="https://user-images.githubusercontent.com/103938174/193416543-a2f189f0-05d8-4c3e-95d4-96181acda2e1.png" alt="Back Img" class="imgTop" />
             </Box> 
 
             <Box m='auto'>
@@ -90,7 +90,7 @@ export default function Projects ( ){
             </Box>
 
             <Box className="cardImg" m='auto'>
-                <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/195992762-dafd25a9-43db-49a9-b7b0-1d5afc58b931.png" alt="Front Img"/>
+                <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/195992762-dafd25a9-43db-49a9-b7b0-1d5afc58b931.png" alt="Front Img" borderRadius='8px'/>
                 <Image src="https://user-images.githubusercontent.com/103938174/195992814-a85f24d8-6266-45dd-a925-feb094b5db02.png" alt="Back Img" class="imgTop"/>
             </Box> 
          </Flex>

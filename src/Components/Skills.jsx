@@ -12,37 +12,37 @@ export default function Skills ( ) {
             <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='30px' mt={{base :'5px', md :'10px'}}>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >  
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>HTML5</Text>
                 </GridItem>
 
                 <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>CSS3</Text>
                 </Box>
 
                 <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>JavaScript</Text>
                 </Box> 
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>React.Js</Text>
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Redux</Text>
                 </GridItem>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Figma</Text>
                 </GridItem>
 
@@ -55,23 +55,23 @@ export default function Skills ( ) {
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
             <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
             <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Node.Js</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Mongodb</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Express</Text>
                 </Box>
 
         
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>NPM</Text>
                 </GridItem>
             </SimpleGrid>
@@ -80,12 +80,12 @@ export default function Skills ( ) {
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '60px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>VERSION CONTROL</Text>
             <SimpleGrid columns={[2,2,2,2]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '45%'}} m='auto' mt={{base : '5px', md : '10px'}}>
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git Hub</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
                 </Box>
             </SimpleGrid>
