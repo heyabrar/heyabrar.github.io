@@ -5,7 +5,7 @@ export default function LinkedinButton() {
   return (
     <Center p={4}>
       <Button
-        w={'full'}
+        w={'90%'}
         maxW={'md'}
         colorScheme={'#805AD5'}
         bg='#805AD5'

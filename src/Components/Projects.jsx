@@ -20,8 +20,8 @@ export default function Projects ( ){
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://beauty-bebo-inky.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://github.com/heyabrar/goldy-rake-5952" target='_blank'><AiFillGithub/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://beauty-bebo-inky.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/heyabrar/goldy-rake-5952" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
          </SimpleGrid>  
@@ -38,8 +38,8 @@ export default function Projects ( ){
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0px', lg :'2px'}}>HTML | CSS | JAVASCRIPT</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://lucky-longma-b5b6e1.netlify.app/" target='_blank'><AiFillChrome/></a></Text>
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://github.com/dineshjangid03/magical-cat-4738" target='_blank'><AiFillGithub/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://lucky-longma-b5b6e1.netlify.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/dineshjangid03/magical-cat-4738" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
 
@@ -66,8 +66,8 @@ export default function Projects ( ){
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://venerable-maamoul-70f361.netlify.app/" target='_blank'><AiFillChrome/></a></Text>
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://github.com/heyabrar/flashy-burst-4121" target='_blank'><AiFillGithub/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://venerable-maamoul-70f361.netlify.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/heyabrar/flashy-burst-4121" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
          </SimpleGrid>  
@@ -84,8 +84,8 @@ export default function Projects ( ){
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5px', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://router-project-heyabrar.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '26px'}} ><a href="https://github.com/heyabrar/My-Projects/tree/main/Router_Cart_S3_D1/router_project" target='_blank'><AiFillGithub/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://router-project-heyabrar.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/heyabrar/My-Projects/tree/main/Router_Cart_S3_D1/router_project" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
 
