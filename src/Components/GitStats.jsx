@@ -10,7 +10,7 @@ export default function  GitStats  ( ) {
       <Flex width={{base : '75%', md : '85%', lg  :'70%'}} m='auto' direction={{base : 'column-reverse', md : 'row'}} justifyContent='center' alignItems='center' mt={{base : '10px', md : '30px', lg : '50px'}} gap={{base : '15px', md : '35px', lg : '70px'}}>
         <Box>
             <a href="https://github.com/heyabrar">
-                    <Image width={{base : '250px', md : '480px', lg : '500px'}} src={`https://github-readme-streak-stats.herokuapp.com/?user=heyabrar&theme=${Theme=='light'?"buefy":'midnight-purple'}&show_icons=true`}/>
+                    <Image width={{base : '250px', md : '480px', lg : '500px'}} src={`https://github-readme-streak-stats.herokuapp.com/?user=heyabrar&theme=${Theme=='light'?"buefy":'midnight-purple'}&show_icons=true&count_private=true&border=white`}/>
                 </a>
         </Box>
 
@@ -24,7 +24,7 @@ export default function  GitStats  ( ) {
      <Flex  w={{base : '70%', md : '80%', lg :'30%'}}  m='auto' mt={{base : '15px', md :'25px'}} justifyContent='center' alignItems='center'> 
         <Box>
             <a href="https://github.com/heyabrar">
-                <Image width={{base : '250px', md : '260px', lg : '350px'}} src={`https://github-readme-stats.vercel.app/api/top-langs/?username=heyabrar&theme=${Theme==='light'?'buefy':'midnight-purple'}&show_icons=true`}/>
+                <Image width={{base : '250px', md : '260px', lg : '350px'}} src={`https://github-readme-stats.vercel.app/api/top-langs/?username=heyabrar&theme=${Theme==='light'?'buefy':'midnight-purple'}&show_icons=true&count_private=true`}/>
             </a>
         </Box>
      </Flex>

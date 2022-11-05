@@ -23,7 +23,7 @@ export default function GitCalenderOffical ( ){
         <>
          <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '37px', md : '40px', lg :'55px'}} letterSpacing={{base : '3px'}}>GITHUB CALENDER</Text>
         <Flex width={{base : '90%', md :'80%', lg : '70%'}} justifyContent='center' alignItems='center'  m='auto' mt={{base : '10px', md :'20px'}}>
-           <GitHubCalendar username="heyabrar" year={new Date().getFullYear()} transformData={selectLastHalfYear} > <ReactToolTip delayShow={20} html/> </GitHubCalendar>
+           <GitHubCalendar username="heyabrar" year={new Date().getFullYear()} transformData={selectLastHalfYear} color='#6B46C1'> <ReactToolTip delayShow={20} html/> </GitHubCalendar>
         </Flex>
         </>
     )
