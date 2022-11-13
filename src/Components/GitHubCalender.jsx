@@ -1,6 +1,7 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import GitHubCalendar from 'react-github-calendar';
 import ReactToolTip from 'react-tooltip'
+import MasaiJourney from "./MasaiJourney";
 
 export default function GitCalenderOffical ( ){
     const selectLastHalfYear = contributions => {
@@ -25,6 +26,10 @@ export default function GitCalenderOffical ( ){
         <Flex width={{base : '90%', md :'80%', lg : '70%'}} justifyContent='center' alignItems='center'  m='auto' mt={{base : '10px', md :'20px'}}>
            <GitHubCalendar username="heyabrar" year={new Date().getFullYear()} transformData={selectLastHalfYear} color='#6B46C1'> <ReactToolTip delayShow={20} html/> </GitHubCalendar>
         </Flex>
+
+        <Box mt={{base :'35px', lg : '100px'}}>
+          <MasaiJourney/>
+        </Box>
         </>
     )
 }
