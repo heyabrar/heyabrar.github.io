@@ -1,13 +1,16 @@
 import { Box, Flex, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import GitCalenderOffical from "./GitHubCalender";
 import GitStats from "./GitStats";
+import {BsFillChatLeftFill} from 'react-icons/bs'
+import {RiTeamFill} from 'react-icons/ri'
+import {FaPeopleCarry} from 'react-icons/fa'
+import {MdSettingsAccessibility} from 'react-icons/md'
 
 export default function Skills ( ) {
     return (
         <>
         <Box w={{base : '95%', md :'90%', lg : '80%'}} m='auto' mt='5%'>
-         <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Skills</Text>
-
+         <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Technical Skills</Text>
         <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '10px', md : '20px', lg :'35px'}} letterSpacing={{base : '3px'}}>FRONT END </Text>
             <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='30px' mt={{base :'5px', md :'10px'}}>
 
@@ -87,6 +90,29 @@ export default function Skills ( ) {
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
                     <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
+                </Box>
+            </SimpleGrid>
+
+            <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}} mt={{base :'50px', md :'80px', lg: '85px'}}>Soft Skills</Text>
+            <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '95%'}} m='auto' mt={{base : '5px', md : '10px'}}>
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
+                    <Flex><Text fontSize={{base : '25px', md :'40px', lg : '40px'}} m='auto'><BsFillChatLeftFill/></Text></Flex>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Communication</Text>
+                </Box>
+
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
+                   <Flex><Text fontSize={{base : '25px', md :'40px', lg : '40px'}} m='auto'><FaPeopleCarry/></Text></Flex>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Team Work</Text>
+                </Box>
+
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
+                   <Flex><Text fontSize={{base : '25px', md :'40px', lg : '40px'}} m='auto'><MdSettingsAccessibility/></Text></Flex>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Adaptibility</Text>
+                </Box>
+
+                <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
+                   <Flex><Text fontSize={{base : '25px', md :'40px', lg : '40px'}} m='auto'><RiTeamFill/></Text></Flex>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Leadership</Text>
                 </Box>
             </SimpleGrid>
         </Box>
