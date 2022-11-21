@@ -7,6 +7,7 @@ import {
   Stack,
   Text,
   Image,
+  Link
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon} from '@chakra-ui/icons';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
@@ -15,7 +16,9 @@ import { AppContext } from '../Context/AppContext';
 export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,ContactRef}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const {Theme,ToggleTheme} = useContext(AppContext)
-
+  const handleDownload = ( ) =>{
+    return window.open('https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing')
+}
   const light = {
     backgroundColor : 'white',
     color : 'black'
@@ -47,7 +50,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Text>Resume</Text> </a>
+              <Text as={Link} _hover={{textDecoration : 'none'}} download={true} href='/AbrarKhan.pdf' onClick={handleDownload} target='_blank'>Resume</Text> 
             </Flex>
           </Flex>
             <Box width='5%' justifyContent={'center'} display='flex'>
@@ -62,7 +65,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <a href="https://drive.google.com/file/d/1s6XzcoGAECjaWVGfMDdHro2ghFgweE-u/view?usp=sharing" target='_blank'><Text cursor='pointer'>Resume</Text></a>
+              <Text as={Link} _hover={{textDecoration : 'none'}} download={true}  href='/AbrarKhan.pdf' onClick={handleDownload} target='_blank'>Resume</Text>
             </Stack>
           </Box>
         ) : null}
