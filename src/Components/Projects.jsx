@@ -20,7 +20,7 @@ export default function Projects ( ){
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
-                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://beauty-bebo-inky.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://beauty-bebo-heyabrar.vercel.app" target='_blank'><AiFillChrome/></a></Text>
                     <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/heyabrar/goldy-rake-5952" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
