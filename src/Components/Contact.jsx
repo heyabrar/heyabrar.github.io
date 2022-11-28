@@ -11,11 +11,11 @@ export default function Contact ( ){
         <Box pb={{base : '20px', md : '30px'}}>
             <Text textAlign='center' fontSize={{base : '15px', md : '16px'}} mt={{base : '10px'}}>Find Me Around The Web</Text>
             
-            <Box width={{base : '60%', md : '33%' , lg :'17%'}} m='auto' mt={{base : '20px'}}>
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="heyabrar" data-version="v1" ><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/heyabrar?trk=profile-badge"></a></div>
-            </Box>
-
-            <Flex w={{base :'50%', md : '35%', lg : '15%'}} m='auto' justifyContent='space-around' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='20px'>
+            <Flex w={{base :'65%', md : '35%', lg : '25%'}} m='auto' justifyContent='space-around' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='20px'>
+            <Box>
+                   <a href="https://www.linkedin.com/in/heyabrar" target='_blank'><Text><BsLinkedin/></Text></a>
+                </Box>
+                
                 <Box>
                    <a href="https://github.com/heyabrar" target='_blank'><Text><BsGithub/></Text></a>
                 </Box>
