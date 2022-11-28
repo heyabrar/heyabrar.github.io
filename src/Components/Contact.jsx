@@ -30,7 +30,7 @@ export default function Contact ( ){
             </Flex>
         </Box>
 
-        <Box  width={{base : '50%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'30px', lg : '50px'}}>
+        <Box  width={{base : '55%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'30px', lg : '50px'}}>
             <CopyRight/>
         </Box>
         </>
