@@ -17,7 +17,7 @@ export default function Projects ( ){
                     ShoppingParadise is an E-Commerce Indian based web application which sells products related to Makeup, Skin Care, Hair, Mom & Baby Care, Fragrance, 
                     Appliances and much more. We Collaborate with the top quality brands to give our users best online purchace services ever.
                 </Text>
-                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >A Colaborative project built and executed in 4 Days.</Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >A Collaborative project built and executed in 4 Days.</Text>
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}} >REACT | REDUX | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
@@ -110,7 +110,7 @@ export default function Projects ( ){
                 Freshly is the leading prepared meal delivery subscription service providing nutritionist-approved, balanced meals that are delivered fresh to your 
                 door and ready-to-eat in three minutes. With a mission to break down the barriers to healthy eating, Freshly delivers effortless nourishment that works for real life.
                 </Text>
-                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >A Colaborative project built by a team of 4 members executed in 4 Days.</Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >A Collaborative project built by a team of 4 members executed in 4 Days.</Text>
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0px', lg :'2px'}}>HTML | CSS | JAVASCRIPT</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
