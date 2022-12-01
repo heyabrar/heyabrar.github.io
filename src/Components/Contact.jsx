@@ -30,8 +30,10 @@ export default function Contact ( ){
             </Flex>
         </Box>
 
-        <Box  width={{base : '55%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'30px', lg : '50px'}}>
+        <Box  width={{base : '55%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'10px', lg : '30px'}}>
             <CopyRight/>
+
+            <Text mt={{base : '20px', md : '25px'}} fontSize={{base : '8px', md  :'10px ', lg :'12px'}}>Credits : Proudly Built By <a href="https://www.linkedin.com/in/heyabrar" target='_blank'>@Abrar Khan</a></Text>
         </Box>
         </>
     )
