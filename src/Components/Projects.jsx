@@ -96,11 +96,6 @@ export default function Projects ( ){
          </Flex> */}
 
          <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
-            <Box className="cardImg" m='auto'>
-                <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/194705621-5672200d-fc57-4fd1-9e81-5296e245f4bc.png" alt="Front Img" borderRadius='8px'/>
-                <Image src="https://user-images.githubusercontent.com/103938174/194705661-60d1b0ac-8b4a-4f59-8e9d-1d160da65ce0.png" alt="Back Img" class="imgTop"/>
-            </Box> 
-
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Freshly.com</Text>
                 <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
@@ -115,6 +110,11 @@ export default function Projects ( ){
                     <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/dineshjangid03/magical-cat-4738" target='_blank'><AiFillGithub/></a></Text>
                 </Flex>
             </Box>
+
+            <Box className="cardImg" m='auto'>
+                <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/194705621-5672200d-fc57-4fd1-9e81-5296e245f4bc.png" alt="Front Img" borderRadius='8px'/>
+                <Image src="https://user-images.githubusercontent.com/103938174/194705661-60d1b0ac-8b4a-4f59-8e9d-1d160da65ce0.png" alt="Back Img" class="imgTop"/>
+            </Box> 
          </Flex>
         </>
     )
