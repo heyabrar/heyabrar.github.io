@@ -50,9 +50,6 @@ export default function Projects ( ){
          </SimpleGrid>  
 
 
-        
-
-
          <SimpleGrid columns={[1,1,1,2]}  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box className="cardImg" m='auto'>
                 <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/195992334-b4d6c015-e172-4d1f-bee9-448aa2413529.png" alt="Front Img" borderRadius='8px'/>
@@ -76,7 +73,7 @@ export default function Projects ( ){
          </SimpleGrid>  
 
 
-         <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
+         {/* <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Shopme.com</Text>
                 <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
@@ -96,7 +93,7 @@ export default function Projects ( ){
                 <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/195992762-dafd25a9-43db-49a9-b7b0-1d5afc58b931.png" alt="Front Img" borderRadius='8px'/>
                 <Image src="https://user-images.githubusercontent.com/103938174/195992814-a85f24d8-6266-45dd-a925-feb094b5db02.png" alt="Back Img" class="imgTop"/>
             </Box> 
-         </Flex>
+         </Flex> */}
 
          <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box className="cardImg" m='auto'>
