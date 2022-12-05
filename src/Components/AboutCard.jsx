@@ -34,7 +34,7 @@ import LinkedinButton from './LinkedInFollowBtn';
                 textAlign={'center'}>
 
                 <Text fontWeight={600} color={'gray.500'} mb={4}> @Abrar_Khan</Text>
-                <Text textAlign={'justify'} color={useColorModeValue('gray.700', 'gray.400')} px={3} style={Theme === 'light' ? light : dark}>
+                <Text textAlign={'justify'} color={useColorModeValue('gray.700', 'gray.400')} px={3} style={Theme === 'light' ? light : dark} width={{base : '90%'}} m='auto'>
                     An ambitious developer with the ability to write neat and understandable code, looking forward to join a team with whom
                     communication and teamwork are paramount. Certified in MERN Stack technologies. Seeking to further improve in building
                     the web applications as the future full stack developer at Atmospheric Solutions.
