@@ -8,7 +8,7 @@ export default function Projects ( ){
           <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>ShoppingParadise.com</Text>
-                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
+                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>
                     ShoppingParadise is an E-Commerce Indian based web application which sells products related to Makeup, Skin Care, Hair, Mom & Baby Care, Fragrance, 
                     Appliances and much more. We Collaborate with the top quality brands to give our users best online purchace services ever.
                 </Text>
@@ -36,7 +36,7 @@ export default function Projects ( ){
 
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>BeautyBebo.com</Text>
-                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>Beauty Bebo is India’s fastest growing online retail store for the day to day and special occasion need of the
+                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>Beauty Bebo is India’s fastest growing online retail store for the day to day and special occasion need of the
                     Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.
                 </Text>
                 <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Indivial project built and executed in 4 Days.</Text>
@@ -53,7 +53,7 @@ export default function Projects ( ){
          <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>CarbManager.com</Text>
-                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
+                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>
                 Carb Manager integrates seamlessly with FitBit, Garmin, and hundreds of other apps and devices via Apple Health and Google Fit, helping you to: Lose 
                 weight quickly. Reduce inflammation. Optimize energy. Gain mental clarity.
                 </Text>
@@ -80,7 +80,7 @@ export default function Projects ( ){
 
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>Freshly.com</Text>
-                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}}>
+                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>
                 Freshly is the leading prepared meal delivery subscription service providing nutritionist-approved, balanced meals that are delivered fresh to your 
                 door and ready-to-eat in three minutes. With a mission to break down the barriers to healthy eating, Freshly delivers effortless nourishment that works for real life.
                 </Text>
