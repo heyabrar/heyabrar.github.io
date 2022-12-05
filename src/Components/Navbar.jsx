@@ -46,7 +46,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
             </Box>
             <Flex as={'nav'} spacing={4} display={{ base: 'none', md: 'flex' }} gap='10px' w={{base : '', md : '60%', lg : '40%'}} justifyContent='space-between' alignItems='center' color='#805AD5' fontWeight='650'>
               <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
-              <Text onClick={AboutRef} cursor='pointer'>About</Text>
+              <Text onClick={AboutRef} cursor='pointer'>About Me</Text>
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
@@ -61,7 +61,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
           <Box pb={4} display={{ md: 'none' }} style={Theme ==='light'? light : dark}>
             <Stack as={'nav'} spacing={4} color='#805AD5' fontWeight='600'>
               <Text onClick={ProfileRef} cursor='pointer'>Home</Text>
-              <Text onClick={AboutRef} cursor='pointer'>About</Text>
+              <Text onClick={AboutRef} cursor='pointer'>About Me</Text>
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
