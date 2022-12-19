@@ -1,7 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Text, Tooltip } from "@chakra-ui/react";
 import {BsLinkedin,BsGithub} from 'react-icons/bs'
-import {AiOutlinePhone} from 'react-icons/ai'
-import {GrMail} from 'react-icons/gr'
 import CopyRight from "./CopyRight";
 
 export default function Contact ( ){
@@ -11,29 +9,24 @@ export default function Contact ( ){
         <Box pb={{base : '20px', md : '30px'}}>
             <Text textAlign='center' fontSize={{base : '15px', md : '16px'}} mt={{base : '10px'}}>Find Me Around The Web</Text>
             
-            <Flex w={{base :'65%', md : '35%', lg : '25%'}} m='auto' justifyContent='space-around' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='20px'>
+            <Flex w={{base :'30%', md : '20%', lg : '10%'}} m='auto' justifyContent='space-around' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='20px'>
             <Box>
-                   <a href="https://www.linkedin.com/in/heyabrar" target='_blank'><Text><BsLinkedin/></Text></a>
+                  <Tooltip label='LinkedIn' bg='#EDF2F7' color='black'>
+                  <a href="https://www.linkedin.com/in/heyabrar" target='_blank'><Text><BsLinkedin/></Text></a>
+                  </Tooltip>
                 </Box>
                 
                 <Box>
+                   <Tooltip label='GitHub' bg='#EDF2F7' color='black'> 
                    <a href="https://github.com/heyabrar" target='_blank'><Text><BsGithub/></Text></a>
-                </Box>
-
-                <Box>
-                   <a href="tel:+918217361455" ><Text><AiOutlinePhone/></Text></a>
-                </Box>
-
-                <Box>
-                   <a href="mailto:heyabrarkhan@email.com"><Text><GrMail/></Text></a>
+                   </Tooltip>
                 </Box>
             </Flex>
         </Box>
 
         <Box  width={{base : '55%', md : '35%', lg : '25%'}} m='auto' textAlign='center' paddingBottom={{base :'10px', lg : '30px'}}>
             <CopyRight/>
-
-            <Text mt={{base : '20px', md : '25px'}} fontSize={{base : '8px', md  :'10px ', lg :'12px'}}>Credits : Proudly Built By <a href="https://www.linkedin.com/in/heyabrar" target='_blank'>@Abrar Khan</a></Text>
+            <Text fontSize={{base : '8px', md  :'10px ', lg :'12px'}}>Credits : Proudly Built By <a href="https://www.linkedin.com/in/heyabrar" target='_blank'>@Abrar Khan</a></Text>
         </Box>
         </>
     )
