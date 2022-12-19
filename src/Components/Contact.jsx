@@ -6,9 +6,7 @@ export default function Contact ( ){
     return(
         <>
         <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Contact</Text>
-        <Box pb={{base : '20px', md : '30px'}}>
-            <Text textAlign='center' fontSize={{base : '15px', md : '16px'}} mt={{base : '10px'}}>Find Me Around The Web</Text>
-            
+        <Box pb={{base : '20px', md : '30px'}}> 
             <Flex w={{base :'30%', md : '20%', lg : '10%'}} m='auto' justifyContent='space-around' fontSize={{base : '22px', md : '26px', lg :'30px'}} mt='20px'>
             <Box>
                   <Tooltip label='LinkedIn' bg='#EDF2F7' color='black'>

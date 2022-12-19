@@ -5,6 +5,26 @@ export default function Projects ( ){
     return (
         <>
           <Text textAlign='center' color='#805AD5' fontSize={{base : '20px',md: '22px', lg : '40px'}} fontWeight={{base : '600', md : '700'}}>Projects</Text>
+          <SimpleGrid columns={[1,1,1,2]}  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '15px', lg : '6%'}} p={{base : '15px', md :'20px', lg :'25px'}}>
+         <Box className="cardImg" m='auto'>
+                <Image  m='auto' src="https://user-images.githubusercontent.com/103938174/208248845-70fbc60c-cbcb-4709-80ae-ee6147309870.png" alt="Front Img" borderRadius='8px'/>
+                <Image src="https://user-images.githubusercontent.com/103938174/208236257-1af24517-e6e9-4c64-8450-7f85cae15ce4.png  " alt="Back Img" class="imgTop" />
+            </Box> 
+
+            <Box m='auto'>
+                <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>ByMe.com</Text>
+                <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>ByMe is an E-Commerce US based web application which sells products related to Men and Women Clothing.    
+                </Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >A Collaborative project built and executed in 4 Days.</Text>
+                <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
+                <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>MERN Stack Technologies.</Text>
+                <Flex gap='20px' mt={{base :'10px'}}> 
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://bymeproject-heyabrar.vercel.app/" target='_blank'><AiFillChrome/></a></Text>
+                    <Text  fontSize={{base :'20px', md : '25px', lg : '30px'}} ><a href="https://github.com/nrishav007/longing-carpenter-4207" target='_blank'><AiFillGithub/></a></Text>
+                </Flex>
+            </Box>
+         </SimpleGrid>  
+
           <Flex  w={{base : '85%', md: '80%', lg : '85%'}} m='auto' columnGap='80px' rowGap='25px' mt={{base : '30px', lg :'6%'}} direction={{base : 'column-reverse', lg :'row'}}  p={{base : '15px', md :'20px', lg :'25px'}}>
             <Box m='auto'>
                 <Text fontSize={{base :'14px', md : '18px', lg : '22px'}} fontWeight='600'>ShoppingParadise.com</Text>
@@ -39,7 +59,7 @@ export default function Projects ( ){
                 <Text fontSize={{base : '13px', md : '14px', lg: '16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} lineHeight={{base : '20px', md : '25px', lg : '30px'}} textAlign='justify'>Beauty Bebo is India’s fastest growing online retail store for the day to day and special occasion need of the
                     Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.
                 </Text>
-                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Indivial project built and executed in 4 Days.</Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Individual project built and executed in 4 Days.</Text>
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
@@ -57,7 +77,7 @@ export default function Projects ( ){
                 Carb Manager integrates seamlessly with FitBit, Garmin, and hundreds of other apps and devices via Apple Health and Google Fit, helping you to: Lose 
                 weight quickly. Reduce inflammation. Optimize energy. Gain mental clarity.
                 </Text>
-                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Indivial project built and executed in 4 Days.</Text>
+                <Text fontSize={{base : '12px', md : '14px' , lg :'16px'}} mt={{base : '5px', md :'10px', lg : '12px'}} >An Individual project built and executed in 4 Days.</Text>
                 <Text fontSize={{base : '14px', md : '18px', lg : '22px'}} mt={{base : '5px', md :'10px', lg : '12px'}} fontWeight='600'>Tech Stack</Text>
                 <Text fontSize={{base : '10px', md : '14px'}} mt={{base : '2px', md :'5px', lg : '2px'}} letterSpacing={{base : '0.5', lg :'2px'}}>REACT | JAVASCRIPT | CHAKRA UI | ROUTER DOM | AXIOS | NPM</Text>
                 <Flex gap='20px' mt={{base :'10px'}}> 
