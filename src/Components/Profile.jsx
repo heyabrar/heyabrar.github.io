@@ -20,7 +20,7 @@ export default function Profile ( ){
                 <Text color='#RGBA(0, 0, 0, 0.64)'> <b>Myself</b> <b style={{color:'#805AD5'}}>Abrar Khan</b></Text>
                 </Flex>
                 <Text color='#RGBA(0, 0, 0, 0.64)   '><b>MERN Developer</b></Text>
-                <Text as={Link} _hover={{textDecoration : 'none'}} download={true} href='/Abrar-Khan-Resume.pdf' onClick={handleDownload} target='_blank'><Button size={{base : 'sm', md : 'md' ,lg :'lg'}}mt={{base : '10px', md :'0'}} colorScheme='purple'>Resume</Button> </Text>
+                <Text as={Link} _hover={{textDecoration : 'none'}} download={true} href='/Abrar_Khan_Resume.pdf' onClick={handleDownload} target='_blank'><Button size={{base : 'sm', md : 'md' ,lg :'lg'}}mt={{base : '10px', md :'0'}} colorScheme='purple'>Resume</Button> </Text>
             </Box>
 
             <Box>
