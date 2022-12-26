@@ -50,7 +50,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <Text as={Link} _hover={{textDecoration : 'none'}} download={true} href='/Abrar_Khan_Resume.pdf' onClick={handleDownload} target='_blank'>Resume</Text> 
+              <Text as={Link} _hover={{textDecoration : 'none'}} download={true} href='/Abrar-Khan-Resume.pdf' onClick={handleDownload} target='_blank'>Resume</Text> 
             </Flex>
           </Flex>
             <Box width='5%' justifyContent={'center'} display='flex'>
@@ -65,7 +65,7 @@ export default function Navbar({ProfileRef,AboutRef,SkillsRef,ProjectsRef,Contac
               <Text onClick={SkillsRef} cursor='pointer'>Skills</Text>
               <Text onClick={ProjectsRef} cursor='pointer'>Project</Text>
               <Text onClick={ContactRef} cursor='pointer'>Contact</Text>
-              <Text as={Link} _hover={{textDecoration : 'none'}} download={true}  href='/Abrar_Khan_Resume.pdf' onClick={handleDownload} target='_blank'>Resume</Text>
+              <Text as={Link} _hover={{textDecoration : 'none'}} download={true}  href='/Abrar-Khan-Resume.pdf' onClick={handleDownload} target='_blank'>Resume</Text>
             </Stack>
           </Box>
         ) : null}
