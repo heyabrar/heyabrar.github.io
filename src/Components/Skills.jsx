@@ -1,8 +1,6 @@
 import { Box, Flex, GridItem, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import GitCalenderOffical from "./GitHubCalender";
 import GitStats from "./GitStats";
-import MasaiJourney from "./MasaiJourney";
-import SoftSkills from "./SoftSkills";
 
 export default function Skills ( ) {
     return (
@@ -90,24 +88,17 @@ export default function Skills ( ) {
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
                 </Box>
             </SimpleGrid>
-        </Box>
 
-        <Box>
-            <GitCalenderOffical/>
+           
         </Box>
 
         <Box>
             <GitStats/> 
         </Box>
-
-        <Box>
-          <SoftSkills/>
-        </Box>
-
-        <Box mt={{base :'35px', lg : '105px'}}>
-          <MasaiJourney/>
-        </Box>
         
+        <Box>
+            <GitCalenderOffical/>
+        </Box>
         </>
     )
 }
