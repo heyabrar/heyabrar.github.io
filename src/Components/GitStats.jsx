@@ -6,7 +6,7 @@ export default function  GitStats  ( ) {
   const {Theme} = useContext(AppContext)
     return (
       <>
-      <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '100px', lg :'85px'}} letterSpacing={{base : '3px'}}>GITHUB STATS</Text>
+      <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '100px', lg :'75px'}} letterSpacing={{base : '3px'}}>GITHUB STATS</Text>
       <Flex width={{base : '75%', md : '85%', lg  :'70%'}} m='auto' direction={{base : 'column-reverse', md : 'row'}} justifyContent='center' alignItems='center' mt={{base : '10px', md : '30px', lg : '50px'}} gap={{base : '15px', md : '35px', lg : '70px'}}>
         <Box>
             <a href="https://github.com/heyabrar">
