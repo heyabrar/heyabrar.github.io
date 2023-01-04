@@ -31,7 +31,7 @@ export default function Skills ( ) {
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png'  borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '20px'}}>Redux</Text>
                 </GridItem>
 
@@ -41,7 +41,7 @@ export default function Skills ( ) {
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.stickpng.com/images/62c6bc3deee9410fe137d920.png' borderRadius='5px'/>
+                    <Image w={{base : '35px', md : '60px', lg :'55px'}} src='https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Figma</Text>
                 </GridItem>
 
