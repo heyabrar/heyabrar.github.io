@@ -11,66 +11,66 @@ export default function Skills ( ) {
             <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='30px' mt={{base :'5px', md :'10px'}}>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >  
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn-icons-png.flaticon.com/512/732/732212.png' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>HTML5</Text>
                 </GridItem>
 
-                <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg' shadow='lg' borderRadius='5px'/>
+                <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>CSS3</Text>
                 </Box>
 
-                <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-plain.svg' shadow='lg' borderRadius='5px'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>JavaScript</Text>
+                <Box  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} m='auto' src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' shadow='lg' borderRadius='5px'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '20px'}}>JavaScript</Text>
                 </Box> 
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg' shadow='lg' borderRadius='5px'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>React.Js</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png'  mt='9px' borderRadius='5px'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '20px'}}>React.Js</Text>
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg' shadow='lg' borderRadius='5px'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Redux</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png'  borderRadius='5px'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '20px'}}>Redux</Text>
                 </GridItem>
 
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-plain.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png' shadow='lg' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>TypeScript</Text>
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/figma/figma-original.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.stickpng.com/images/62c6bc3deee9410fe137d920.png' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Figma</Text>
                 </GridItem>
 
                 <GridItem  m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://www.coffeeclass.io/logos/chakra-ui.png' shadow='lg'/>
-                    <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Chakra UI</Text>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://www.coffeeclass.io/logos/chakra-ui.png'/>
+                    <Text  textAlign='center' mt={{base : '10px', lg : '20px'}}>Chakra UI</Text>
                 </GridItem>
             </SimpleGrid>
 
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '50px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>BACK END </Text>
             <SimpleGrid columns={[4,4,4,4]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'>
             <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/nodejs/nodejs-plain.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Node.Js</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Mongodb</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Express</Text>
                 </Box>
 
         
                 <GridItem m='auto' mt={{base : '20px', md :'30px' , lg :'6' }}>
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/npm/npm-original-wordmark.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://authy.com/wp-content/uploads/npm-logo.png' borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>NPM</Text>
                 </GridItem>
             </SimpleGrid>
@@ -79,12 +79,12 @@ export default function Skills ( ) {
             <Text textAlign='center' fontSize={{base : '12px',md: '18px', lg : '20px'}} fontWeight={{base : '600', md : '600'}} mt={{base : '60px', md : '80px', lg :'55px'}} letterSpacing={{base : '3px'}}>VERSION CONTROL</Text>
             <SimpleGrid columns={[2,2,2,2]} fontSize={{base : '12px', md : '14px'}} fontWeight='600' rowGap='15px'  w={{base : '45%'}} m='auto' mt={{base : '5px', md : '10px'}}>
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://icones.pro/wp-content/uploads/2021/06/symbole-github-violet.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git Hub</Text>
                 </Box>
 
                 <Box m='auto' mt={{base : '20px', md :'30px' , lg :'6' }} >
-                    <Image w={{base : '45px', md : '80px', lg :'80px'}} src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/git/git-original.svg' shadow='lg' borderRadius='5px'/>
+                    <Image w={{base : '45px', md : '80px', lg :'70px'}} src='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png'  borderRadius='5px'/>
                     <Text  textAlign='center' mt={{base : '10px', lg : '15px'}}>Git</Text>
                 </Box>
             </SimpleGrid>
