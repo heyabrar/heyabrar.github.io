@@ -110,10 +110,11 @@ const ProjectsUI = ({
                 setProjectData({
                   description: description || "",
                   description1: description1 || "",
+                  title,
                 });
               }}
             >
-              Know More..
+              Get to know my responsibilities...
             </button>
           </div>
         </div>
