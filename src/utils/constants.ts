@@ -217,10 +217,10 @@ const projectsDetails = [
       "The key achievements of this project include the successful creation and implementation of a customized checkout page seamlessly integrated with the Razorpay payment gateway. I designed a visually appealing and user-friendly interface that maintains brand consistency and responsiveness across various devices",
     description1:
       "The integration with Razorpay enables users to make secure transactions using diverse payment methods, ensuring a seamless and efficient payment process. Robust error handling mechanisms were implemented, providing users with clear payment confirmations upon success and guiding them through necessary steps in case of payment failures.",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/9163f56b-9cc5-4d38-93c6-ba9a68ca9cf9",
     image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/aa4c9989-3eba-4f45-8b70-4b82302b9af8",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/0ce7e3f7-5cda-4e3b-90a6-ee429184488e",
+    hoverImage:
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c115fb08-2c31-4278-8cf5-59317d413b2b",
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI | Context API",
     liveLink: "https://www.pwskills.com",
@@ -239,9 +239,9 @@ const projectsDetails = [
     description1:
       "Additionally, I developed the profile page, empowering users to seamlessly input and manage their profile details. The scope of my responsibilities included implementing key features such as uploading profile images from the local system and establishing a robust CRUD (Create, Read, Update, Delete) functionality. This encompassed providing users with the ability to not only update their information but also delete their accounts when needed.",
     hoverImage:
-      "https://github.com/heyabrar/MozaicQ-Assessment/assets/103938174/ea3218d5-bea5-4b01-9140-233398f111f5",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/19a62ca2-2c31-424a-8222-6d143676febf",
     image:
-      "https://github.com/heyabrar/MozaicQ-Assessment/assets/103938174/d1d23f14-c5df-4492-98b9-b6f372055365",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/86a9429f-9b25-4cb2-8db5-d7c6751cb5d5",
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI",
     liveLink: "https://www.pwskills.com",
