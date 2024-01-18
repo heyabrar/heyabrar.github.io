@@ -156,9 +156,9 @@ const projectsDetails = [
     description1:
       "I took charge of optimizing the upvote and downvote features, strategically minimizing API calls for improved efficiency. My expertise also came into play in designing the hero section of the landing page, crafting an impactful first impression for users. I further enhanced the user experience by incorporating search filters into the Queries Listing.",
     image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/d6f29703-762f-482d-8531-0d9565b5bc97",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f80b8682-33aa-4d2f-8673-306f3dfeafc7",
     hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/54c0e00b-bb0e-4342-a327-4d4a672b9915",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/aa4e1d0f-8bac-4ed5-9ebc-e163cc673c5a",
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Quill | React Query | Socket.io",
@@ -177,9 +177,9 @@ const projectsDetails = [
     description1:
       "On the recruiter side, the system streamlined job posting, management, and candidate searches. The platform's impact was notable, simplifying the job search and recruitment processes for all users. Leveraging modern technologies, the project aimed to create a user-friendly and responsive experience.",
     image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/15b44b7f-1855-4baf-b158-2ab19af0aaa3",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c4d97cb0-aebe-4879-a262-eeb3308f4e2a",
     hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/38a8d9ee-59f0-4393-837f-da13dc9eb290",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/d6de1dff-1440-41ca-aaa0-fc4cf0fceb40",
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Lottie | CK Editor | React Player",
@@ -196,9 +196,9 @@ const projectsDetails = [
     description:
       "I took charge of constructing the primary landing page for PW IOI, focusing on creating a user-friendly and visually appealing interface. Furthermore, I actively participated in the implementation of the School of Management & the School of Technology, faithfully adhering to the designated design guidelines. The project achieved a triumphant live launch, showcasing the seamless integration of design and functionality.",
     image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/e7b65357-ef31-4152-a9b1-ae4c68f17f8e",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f9d47c2a-3aff-42e5-b3d4-7e81cd46c1a4",
     hoverImage:
-      "https://github.com/heyabrar/MozaicQ-Assessment/assets/103938174/879ec7ca-3e38-4a45-96fd-b35a00df4b1e",
+      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/ffbeae2f-f4c2-4bf1-aedd-7358ce9bf602",
     description1:
       "In just one week, I successfully completed this project, showcasing efficiency and dedication in delivering a high-quality outcome.",
     techStack: "Next.js | TypeScript | Tailwind | RachnaUI",
