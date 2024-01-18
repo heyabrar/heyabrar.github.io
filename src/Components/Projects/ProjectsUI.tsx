@@ -114,7 +114,7 @@ const ProjectsUI = ({
                 });
               }}
             >
-              Know More..
+              Get to know my responsibilities...
             </button>
           </div>
         </div>
