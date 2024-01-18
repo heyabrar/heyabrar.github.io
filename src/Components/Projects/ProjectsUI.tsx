@@ -110,6 +110,7 @@ const ProjectsUI = ({
                 setProjectData({
                   description: description || "",
                   description1: description1 || "",
+                  title,
                 });
               }}
             >
