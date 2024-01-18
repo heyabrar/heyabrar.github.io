@@ -23,9 +23,16 @@ interface IProject {
   fade: string;
 }
 
+interface IProjectModalDetails {
+  description: string;
+  description1: string;
+  title?: string;
+}
 interface IStore {
   darkMode: boolean;
   setDarkMode: (val: boolean) => void;
+  projectData: IProjectModalDetails;
+  setProjectData: (val: IProjectModalDetails) => void;
 }
 
-export type { ISectionRefs, IProject, IStore };
+export type { ISectionRefs, IProject, IStore, IProjectModalDetails };

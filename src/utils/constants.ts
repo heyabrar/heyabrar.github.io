@@ -164,7 +164,7 @@ const projectsDetails = [
       "Next.js | TypeScript | Tailwind | Zustand | React Quill | React Query | Socket.io",
     liveLink: "https://support.ineuron.ai",
     githubLink: "",
-    flexRow: "md:!flex-row",
+    flexRow: "lg:!flex-row",
     fade: "left",
   },
   {
@@ -185,7 +185,7 @@ const projectsDetails = [
       "Next.js | TypeScript | Tailwind | Zustand | React Lottie | CK Editor | React Player",
     liveLink: "https://jobs.ineuron.ai",
     githubLink: "",
-    flexRow: "md:!flex-row-reverse",
+    flexRow: "lg:!flex-row-reverse",
     fade: "right",
   },
   {
@@ -204,7 +204,7 @@ const projectsDetails = [
     techStack: "Next.js | TypeScript | Tailwind | RachnaUI",
     liveLink: "https://pwioi.com/",
     githubLink: "",
-    flexRow: "md:!flex-row",
+    flexRow: "lg:!flex-row",
     fade: "left",
   },
 
@@ -225,7 +225,7 @@ const projectsDetails = [
     techStack: "React | TypeScript | Tailwind | RachnaUI | Context API",
     liveLink: "https://www.pwskills.com",
     githubLink: "",
-    flexRow: "md:!flex-row-reverse",
+    flexRow: "lg:!flex-row-reverse",
     fade: "right",
   },
 
@@ -246,7 +246,7 @@ const projectsDetails = [
     techStack: "React | TypeScript | Tailwind | RachnaUI",
     liveLink: "https://www.pwskills.com",
     githubLink: "",
-    flexRow: "md:!flex-row",
+    flexRow: "lg:!flex-row",
     fade: "left",
   },
 ];
@@ -266,6 +266,12 @@ const jobExperience = [
   },
 ];
 
+const initialProjectData = {
+  description: "",
+  description1: "",
+  title: "",
+};
+
 export {
   aboutContent,
   linkedInURL,
@@ -278,4 +284,5 @@ export {
   githubURL,
   projectsDetails,
   jobExperience,
+  initialProjectData,
 };

@@ -1,8 +1,10 @@
 import { CiCalendarDate } from "react-icons/ci";
 import { IProject } from "../../interfaces";
-import Organization from "../Icons/Organization";
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
+import Organization from "../Icons/Organization";
+import useStore from "../../store";
+import ProjectsDetailedModal from "./ProjectsDetailedModal";
 const Fade = require("react-reveal/Fade");
 
 const ProjectsUI = ({
@@ -22,14 +24,16 @@ const ProjectsUI = ({
   projectType,
 }: IProject) => {
   const [readMore, setReadMore] = useState<boolean>(false);
+  const [knowMoreModal, setKnowMoreModal] = useState<boolean>(false);
+  const { setProjectData } = useStore();
 
   return (
     <div className="first:mt-10 mt-14 lg:mt-20">
       <Fade left={fade === "left"} right={fade === "right"}>
         <div
-          className={`flex flex-col gap-x-10 gap-y-8 first:mt-1 mt-10  items-center lg:mt-20`}
+          className={`flex flex-col gap-x-10 gap-y-8 first:mt-1 mt-10 items-center lg:mt-20 lg:flex-row lg:w-[90%] lg:mx-auto`}
         >
-          <div className="md:!w-[60%] relative">
+          <div className="md:!w-[70%] relative lg:!w-[50%]">
             <a href={liveLink} target="_blank" rel="noreferrer">
               <img src={image} alt={title} className="hover:opacity-0" />
               <img
@@ -40,7 +44,7 @@ const ProjectsUI = ({
             </a>
           </div>
 
-          <div className="w-full">
+          <div className="w-full md:w-[80%] lg:w-[50%]">
             <h1 className="text-[16px] lg:text-[18px]">{title}</h1>
             {organization && (
               <div className="flex gap-x-2 items-center mt-2">
@@ -57,7 +61,7 @@ const ProjectsUI = ({
             <div
               className={`${
                 readMore ? "h-auto" : "h-[90px] lg:h-[100px]"
-              } overflow-hidden`}
+              } overflow-hidden lg:hidden`}
             >
               <h1 className="text-[12px] mt-2 leading-[20px] lg:text-[15px] lg:leading-[30px]">
                 {description}
@@ -71,10 +75,12 @@ const ProjectsUI = ({
             </div>
 
             <button
-              className="text-[10px] text-customGreen lg:!text-[13px] lg:mt-3"
-              onClick={() => setReadMore(!readMore)}
+              className="!inline-block text-[10px] text-customGreen lg:!hidden"
+              onClick={() => {
+                setReadMore(!readMore);
+              }}
             >
-              {readMore ? " Read Less....." : " Read More....."}
+              {readMore ? "Read Less....." : " Read More....."}
             </button>
 
             {projectType && (
@@ -96,9 +102,27 @@ const ProjectsUI = ({
                 </a>
               )}
             </div>
+
+            <button
+              className="hidden text-[10px] text-customGreen lg:!text-[13px] lg:mt-3 lg:block"
+              onClick={() => {
+                setKnowMoreModal(true);
+                setProjectData({
+                  description: description || "",
+                  description1: description1 || "",
+                });
+              }}
+            >
+              Know More..
+            </button>
           </div>
         </div>
       </Fade>
+
+      <ProjectsDetailedModal
+        openModal={knowMoreModal}
+        handleCloseModal={() => setKnowMoreModal(false)}
+      />
     </div>
   );
 };
