@@ -2,10 +2,6 @@ import { create } from "zustand";
 import { IProjectModalDetails, IStore } from "../interfaces";
 import { initialProjectData } from "../utils/constants";
 
-type x = {
-  description: string;
-  description1: string;
-};
 const useStore = create<IStore>((set) => ({
   darkMode: true,
   projectData: initialProjectData,

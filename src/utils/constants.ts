@@ -8,6 +8,7 @@ import PWSkillsProfileImage from "../assets/Images/Projects/PWSkillsProfile/imag
 import PWSkillsProfileHoverImage from "../assets/Images/Projects/PWSkillsProfile/hoverImage.webp";
 import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/image.webp";
 import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
+import { IProject } from "../interfaces";
 
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
@@ -156,7 +157,7 @@ const versionControl = [
 const contactNumber = "+91 8217361455";
 const contactEmail = "heyabrarkhan@gmail.com";
 
-const projectsDetails = [
+const projectsDetails: IProject[] = [
   {
     id: 1,
     title: "Support System",
@@ -182,9 +183,11 @@ const projectsDetails = [
     organization: "iNeuron.ai (PhysicsWallah)",
     duration: "2023-2023",
     description:
-      "The Job Portal project stands as a significant milestone in my professional journey, where I actively contributed to the development of both candidate and recruiter modules. For candidates, the platform facilitated job applications, offered a custom resume builder, and provided mock tests for skills assessment. With a Candidate Dashboard to enhance and track the status of the applications and saved jobs.",
+      "The Job Portal project stands as a significant milestone in my professional journey, where I actively contributed to the development of both candidate and recruiter modules. For candidates, the platform facilitated job applications, offered a custom resume builder, job search filters and provided mock tests for skills assessment. With a Candidate Dashboard to enhance and track the status of the applications and saved jobs.",
     description1:
       "On the recruiter side, the system streamlined job posting, management, and candidate searches. The platform's impact was notable, simplifying the job search and recruitment processes for all users. Leveraging modern technologies, the project aimed to create a user-friendly and responsive experience.",
+    description2:
+      "Our collaborative efforts were marked by a total pod of 5 individuals, consisting of 3 backend developers and 2 frontend developers. This dynamic team structure played a crucial role in achieving our project goals and ensuring a seamless integration of both candidate and recruiter functionalities.",
     image: JobPortalImage,
     hoverImage: JobPortalHoverImage,
     projectType: "",
@@ -270,6 +273,7 @@ const jobExperience = [
 const initialProjectData = {
   description: "",
   description1: "",
+  description2: "",
   title: "",
 };
 
