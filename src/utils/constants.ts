@@ -4,6 +4,10 @@ import JobPortalImage from "../assets/Images/Projects/JobPortal/image.webp";
 import JobPortalHoverImage from "../assets/Images/Projects/JobPortal/hoverImage.webp";
 import PWIOIImage from "../assets/Images/Projects/PWIOI/image.webp";
 import PWIOIHoverImage from "../assets/Images/Projects/PWIOI/hoverImage.webp";
+import PWSkillsProfileImage from "../assets/Images/Projects/PWSkillsProfile/image.webp";
+import PWSkillsProfileHoverImage from "../assets/Images/Projects/PWSkillsProfile/hoverImage.webp";
+import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/image.webp";
+import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
 
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
@@ -218,10 +222,8 @@ const projectsDetails = [
       "The key achievements of this project include the successful creation and implementation of a customized checkout page seamlessly integrated with the Razorpay payment gateway. I designed a visually appealing and user-friendly interface that maintains brand consistency and responsiveness across various devices",
     description1:
       "The integration with Razorpay enables users to make secure transactions using diverse payment methods, ensuring a seamless and efficient payment process. Robust error handling mechanisms were implemented, providing users with clear payment confirmations upon success and guiding them through necessary steps in case of payment failures.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/0ce7e3f7-5cda-4e3b-90a6-ee429184488e",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c115fb08-2c31-4278-8cf5-59317d413b2b",
+    image: PwSkillsCheckoutImage,
+    hoverImage: PwSkillsCheckoutHoverImage,
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI | Context API",
     liveLink: "https://www.pwskills.com",
@@ -239,10 +241,8 @@ const projectsDetails = [
       "In my initial position within the tech industry, I played a pivotal role in constructing both the login and profile pages for pwkills.com. I focused on designing the user interface for the login page, ensuring an intuitive and user-friendly experience.",
     description1:
       "Additionally, I developed the profile page, empowering users to seamlessly input and manage their profile details. The scope of my responsibilities included implementing key features such as uploading profile images from the local system and establishing a robust CRUD (Create, Read, Update, Delete) functionality. This encompassed providing users with the ability to not only update their information but also delete their accounts when needed.",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/19a62ca2-2c31-424a-8222-6d143676febf",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/86a9429f-9b25-4cb2-8db5-d7c6751cb5d5",
+    image: PWSkillsProfileImage,
+    hoverImage: PWSkillsProfileHoverImage,
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI",
     liveLink: "https://www.pwskills.com",
