@@ -1,7 +1,7 @@
 import { CiCalendarDate } from "react-icons/ci";
 import { IProject } from "../../interfaces";
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
-import { CiLocationArrow1 } from "react-icons/ci";
+import { IoArrowRedoSharp } from "react-icons/io5";
 import { useState } from "react";
 import Organization from "../../assets/Icons/Organization";
 import useStore from "../../store";
@@ -115,8 +115,8 @@ const ProjectsUI = ({
                 });
               }}
             >
+              <IoArrowRedoSharp />
               Explore my roles & responsibilities
-              <CiLocationArrow1 className="w-[15px] h-[15px]" />
             </button>
           </div>
         </div>
