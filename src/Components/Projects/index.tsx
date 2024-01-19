@@ -11,7 +11,7 @@ const Projects = () => {
 
       <div>
         {projectsDetails.map((item) => {
-          return <ProjectsUI {...item} />;
+          return <ProjectsUI {...item} key={item?.id} />;
         })}
       </div>
     </div>

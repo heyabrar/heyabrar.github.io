@@ -10,16 +10,15 @@ const Fade = require("react-reveal/Fade");
 const ProjectsUI = ({
   duration,
   fade,
-  flexRow,
   hoverImage,
-  id,
   image,
   liveLink,
   organization,
   techStack,
   title,
-  description1,
   description,
+  description1,
+  description2,
   githubLink,
   projectType,
 }: IProject) => {
@@ -49,7 +48,7 @@ const ProjectsUI = ({
             {organization && (
               <div className="flex gap-x-2 items-center mt-2">
                 <Organization className="w-[20px]" />
-                <h1 className="text-[14px]">{organization}</h1>
+                <h1 className="text-[15px]">{organization}</h1>
               </div>
             )}
 
@@ -90,7 +89,7 @@ const ProjectsUI = ({
             )}
 
             <h1 className="mt-4 text-[14px] lg:text-[16px]">Tech Stack</h1>
-            <h1 className="mt-2 text-[12px] lg:text-[14px]">{techStack}</h1>
+            <h1 className="mt-2 text-[12px] lg:text-[15px]">{techStack}</h1>
 
             <div className="flex gap-x-4 mt-4">
               <a href={liveLink} target="_blank" rel="noreferrer">
@@ -104,12 +103,13 @@ const ProjectsUI = ({
             </div>
 
             <button
-              className="hidden text-[10px] text-customGreen lg:!text-[13px] lg:mt-3 lg:block"
+              className="hidden text-[10px] text-customGreen lg:!text-[14px] lg:mt-3 lg:block"
               onClick={() => {
                 setKnowMoreModal(true);
                 setProjectData({
                   description: description || "",
                   description1: description1 || "",
+                  description2: description2 || "",
                   title,
                 });
               }}

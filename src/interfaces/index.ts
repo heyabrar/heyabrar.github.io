@@ -13,6 +13,7 @@ interface IProject {
   duration: string;
   description?: string;
   description1?: string;
+  description2?: string;
   image: string;
   hoverImage: string;
   projectType?: string;
@@ -26,6 +27,7 @@ interface IProject {
 interface IProjectModalDetails {
   description: string;
   description1: string;
+  description2: string;
   title?: string;
 }
 interface IStore {
