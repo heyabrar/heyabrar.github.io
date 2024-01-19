@@ -9,10 +9,10 @@ import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
-import Swipe from "./Components/Icons/Swipe";
-import MobileSwipe from "./Components/Icons/MobileSwipe";
+import Swipe from "./assets/Icons/Swipe";
+import MobileSwipe from "./assets/Icons/MobileSwipe";
 import useStore from "./store";
-import Glow from "./Components/Icons/Glow";
+import Glow from "./assets/Icons/Glow";
 
 function App() {
   const homeRef = useRef(null);

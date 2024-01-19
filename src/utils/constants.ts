@@ -1,3 +1,14 @@
+import SupportSystemImage from "../assets/Images/Projects/Support-System/image.webp";
+import SupportSystemHoverImage from "../assets/Images/Projects/Support-System/hoverImage.webp";
+import JobPortalImage from "../assets/Images/Projects/JobPortal/image.webp";
+import JobPortalHoverImage from "../assets/Images/Projects/JobPortal/hoverImage.webp";
+import PWIOIImage from "../assets/Images/Projects/PWIOI/image.webp";
+import PWIOIHoverImage from "../assets/Images/Projects/PWIOI/hoverImage.webp";
+import PWSkillsProfileImage from "../assets/Images/Projects/PWSkillsProfile/image.webp";
+import PWSkillsProfileHoverImage from "../assets/Images/Projects/PWSkillsProfile/hoverImage.webp";
+import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/image.webp";
+import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
+
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
 };
@@ -155,10 +166,8 @@ const projectsDetails = [
       "I am proud to showcase my impactful contributions to the revolutionary edu-tech product, the Support System, launched by ineuron.ai. I spearheaded the development of a Query detailed page with SSR for optimal SEO performance, utilizing React Query. My responsibilities extended to enhancing user engagement by enabling functionalities such as adding comments, editing comments, deleting comments, editing queries, and deleting queries. Additionally, I implemented robust reporting mechanisms for both queries and comments.",
     description1:
       "I took charge of optimizing the upvote and downvote features, strategically minimizing API calls for improved efficiency. My expertise also came into play in designing the hero section of the landing page, crafting an impactful first impression for users. I further enhanced the user experience by incorporating search filters into the Queries Listing.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f80b8682-33aa-4d2f-8673-306f3dfeafc7",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/aa4e1d0f-8bac-4ed5-9ebc-e163cc673c5a",
+    image: SupportSystemImage,
+    hoverImage: SupportSystemHoverImage,
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Quill | React Query | Socket.io",
@@ -176,10 +185,8 @@ const projectsDetails = [
       "The Job Portal project stands as a significant milestone in my professional journey, where I actively contributed to the development of both candidate and recruiter modules. For candidates, the platform facilitated job applications, offered a custom resume builder, and provided mock tests for skills assessment. With a Candidate Dashboard to enhance and track the status of the applications and saved jobs.",
     description1:
       "On the recruiter side, the system streamlined job posting, management, and candidate searches. The platform's impact was notable, simplifying the job search and recruitment processes for all users. Leveraging modern technologies, the project aimed to create a user-friendly and responsive experience.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c4d97cb0-aebe-4879-a262-eeb3308f4e2a",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/d6de1dff-1440-41ca-aaa0-fc4cf0fceb40",
+    image: JobPortalImage,
+    hoverImage: JobPortalHoverImage,
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Lottie | CK Editor | React Player",
@@ -195,10 +202,8 @@ const projectsDetails = [
     duration: "2023-2023",
     description:
       "I took charge of constructing the primary landing page for PW IOI, focusing on creating a user-friendly and visually appealing interface. Furthermore, I actively participated in the implementation of the School of Management & the School of Technology, faithfully adhering to the designated design guidelines. The project achieved a triumphant live launch, showcasing the seamless integration of design and functionality.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f9d47c2a-3aff-42e5-b3d4-7e81cd46c1a4",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/ffbeae2f-f4c2-4bf1-aedd-7358ce9bf602",
+    image: PWIOIImage,
+    hoverImage: PWIOIHoverImage,
     description1:
       "In just one week, I successfully completed this project, showcasing efficiency and dedication in delivering a high-quality outcome.",
     techStack: "Next.js | TypeScript | Tailwind | RachnaUI",
@@ -217,10 +222,8 @@ const projectsDetails = [
       "The key achievements of this project include the successful creation and implementation of a customized checkout page seamlessly integrated with the Razorpay payment gateway. I designed a visually appealing and user-friendly interface that maintains brand consistency and responsiveness across various devices",
     description1:
       "The integration with Razorpay enables users to make secure transactions using diverse payment methods, ensuring a seamless and efficient payment process. Robust error handling mechanisms were implemented, providing users with clear payment confirmations upon success and guiding them through necessary steps in case of payment failures.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/0ce7e3f7-5cda-4e3b-90a6-ee429184488e",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c115fb08-2c31-4278-8cf5-59317d413b2b",
+    image: PwSkillsCheckoutImage,
+    hoverImage: PwSkillsCheckoutHoverImage,
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI | Context API",
     liveLink: "https://www.pwskills.com",
@@ -238,10 +241,8 @@ const projectsDetails = [
       "In my initial position within the tech industry, I played a pivotal role in constructing both the login and profile pages for pwkills.com. I focused on designing the user interface for the login page, ensuring an intuitive and user-friendly experience.",
     description1:
       "Additionally, I developed the profile page, empowering users to seamlessly input and manage their profile details. The scope of my responsibilities included implementing key features such as uploading profile images from the local system and establishing a robust CRUD (Create, Read, Update, Delete) functionality. This encompassed providing users with the ability to not only update their information but also delete their accounts when needed.",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/19a62ca2-2c31-424a-8222-6d143676febf",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/86a9429f-9b25-4cb2-8db5-d7c6751cb5d5",
+    image: PWSkillsProfileImage,
+    hoverImage: PWSkillsProfileHoverImage,
     projectType: "",
     techStack: "React | TypeScript | Tailwind | RachnaUI",
     liveLink: "https://www.pwskills.com",
