@@ -1,5 +1,9 @@
 import SupportSystemImage from "../assets/Images/Projects/Support-System/image.webp";
 import SupportSystemHoverImage from "../assets/Images/Projects/Support-System/hoverImage.webp";
+import JobPortalImage from "../assets/Images/Projects/JobPortal/image.webp";
+import JobPortalHoverImage from "../assets/Images/Projects/JobPortal/hoverImage.webp";
+import PWIOIImage from "../assets/Images/Projects/PWIOI/image.webp";
+import PWIOIHoverImage from "../assets/Images/Projects/PWIOI/hoverImage.webp";
 
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
@@ -177,10 +181,8 @@ const projectsDetails = [
       "The Job Portal project stands as a significant milestone in my professional journey, where I actively contributed to the development of both candidate and recruiter modules. For candidates, the platform facilitated job applications, offered a custom resume builder, and provided mock tests for skills assessment. With a Candidate Dashboard to enhance and track the status of the applications and saved jobs.",
     description1:
       "On the recruiter side, the system streamlined job posting, management, and candidate searches. The platform's impact was notable, simplifying the job search and recruitment processes for all users. Leveraging modern technologies, the project aimed to create a user-friendly and responsive experience.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/c4d97cb0-aebe-4879-a262-eeb3308f4e2a",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/d6de1dff-1440-41ca-aaa0-fc4cf0fceb40",
+    image: JobPortalImage,
+    hoverImage: JobPortalHoverImage,
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Lottie | CK Editor | React Player",
@@ -196,10 +198,8 @@ const projectsDetails = [
     duration: "2023-2023",
     description:
       "I took charge of constructing the primary landing page for PW IOI, focusing on creating a user-friendly and visually appealing interface. Furthermore, I actively participated in the implementation of the School of Management & the School of Technology, faithfully adhering to the designated design guidelines. The project achieved a triumphant live launch, showcasing the seamless integration of design and functionality.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f9d47c2a-3aff-42e5-b3d4-7e81cd46c1a4",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/ffbeae2f-f4c2-4bf1-aedd-7358ce9bf602",
+    image: PWIOIImage,
+    hoverImage: PWIOIHoverImage,
     description1:
       "In just one week, I successfully completed this project, showcasing efficiency and dedication in delivering a high-quality outcome.",
     techStack: "Next.js | TypeScript | Tailwind | RachnaUI",
