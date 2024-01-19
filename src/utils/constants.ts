@@ -1,3 +1,6 @@
+import SupportSystemImage from "../assets/Images/Projects/Support-System/image.webp";
+import SupportSystemHoverImage from "../assets/Images/Projects/Support-System/hoverImage.webp";
+
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
 };
@@ -155,10 +158,8 @@ const projectsDetails = [
       "I am proud to showcase my impactful contributions to the revolutionary edu-tech product, the Support System, launched by ineuron.ai. I spearheaded the development of a Query detailed page with SSR for optimal SEO performance, utilizing React Query. My responsibilities extended to enhancing user engagement by enabling functionalities such as adding comments, editing comments, deleting comments, editing queries, and deleting queries. Additionally, I implemented robust reporting mechanisms for both queries and comments.",
     description1:
       "I took charge of optimizing the upvote and downvote features, strategically minimizing API calls for improved efficiency. My expertise also came into play in designing the hero section of the landing page, crafting an impactful first impression for users. I further enhanced the user experience by incorporating search filters into the Queries Listing.",
-    image:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/f80b8682-33aa-4d2f-8673-306f3dfeafc7",
-    hoverImage:
-      "https://github.com/heyabrar/heyabrar.github.io/assets/103938174/aa4e1d0f-8bac-4ed5-9ebc-e163cc673c5a",
+    image: SupportSystemImage,
+    hoverImage: SupportSystemHoverImage,
     projectType: "",
     techStack:
       "Next.js | TypeScript | Tailwind | Zustand | React Quill | React Query | Socket.io",

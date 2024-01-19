@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ISectionRefs } from "../../interfaces";
-import AK from "../Icons/AK";
+import AK from "../../assets/Icons/AK";
 import Drawer from "../common/Drawer";
 import useStore from "../../store";
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";

@@ -6,7 +6,7 @@ import {
 } from "../../utils/constants";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineCopyright } from "react-icons/ai";
-import AK from "../Icons/AK";
+import AK from "../../assets/Icons/AK";
 import useStore from "../../store";
 const Fade = require("react-reveal/Fade");
 

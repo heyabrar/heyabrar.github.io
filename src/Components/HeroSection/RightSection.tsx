@@ -1,4 +1,4 @@
-import Image from "../../Components/Icons/Hero-image.png";
+import Image from "../../assets/Images/HeroSection/Hero-image.png";
 
 const RightSection = () => {
   return (

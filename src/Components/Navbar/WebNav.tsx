@@ -1,4 +1,4 @@
-import AK from "../Icons/AK";
+import AK from "../../assets/Icons/AK";
 import { ISectionRefs } from "../../interfaces";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineLightMode } from "react-icons/md";

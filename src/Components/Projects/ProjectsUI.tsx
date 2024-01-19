@@ -2,7 +2,7 @@ import { CiCalendarDate } from "react-icons/ci";
 import { IProject } from "../../interfaces";
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
-import Organization from "../Icons/Organization";
+import Organization from "../../assets/Icons/Organization";
 import useStore from "../../store";
 import ProjectsDetailedModal from "./ProjectsDetailedModal";
 const Fade = require("react-reveal/Fade");

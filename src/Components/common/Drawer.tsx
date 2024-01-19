@@ -1,6 +1,6 @@
 import React from "react";
 import { MdCancel } from "react-icons/md";
-import AK from "../Icons/AK";
+import AK from "../../assets/Icons/AK";
 import useStore from "../../store";
 
 type Props = {
