@@ -1,6 +1,7 @@
 import { CiCalendarDate } from "react-icons/ci";
 import { IProject } from "../../interfaces";
 import { AiFillChrome, AiFillGithub } from "react-icons/ai";
+import { CiLocationArrow1 } from "react-icons/ci";
 import { useState } from "react";
 import Organization from "../../assets/Icons/Organization";
 import useStore from "../../store";
@@ -103,7 +104,7 @@ const ProjectsUI = ({
             </div>
 
             <button
-              className="hidden text-[10px] text-customGreen lg:!text-[14px] lg:mt-3 lg:block"
+              className="hidden text-[10px] text-customGreen lg:!text-[14px] lg:mt-3 lg:flex lg:items-center gap-x-1"
               onClick={() => {
                 setKnowMoreModal(true);
                 setProjectData({
@@ -114,7 +115,8 @@ const ProjectsUI = ({
                 });
               }}
             >
-              Get to know my responsibilities...
+              Explore my roles & responsibilities
+              <CiLocationArrow1 className="w-[15px] h-[15px]" />
             </button>
           </div>
         </div>
