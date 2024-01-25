@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { whatIOffer } from "../../utils/constants";
 import HeaderTitle from "../common/HeaderTitle";
 import useStore from "../../store";
+const Fade = require("react-reveal/Fade");
 
 const WhatIOffer = () => {
   const [scrollPosition, setScrollPosition] = useState<number>(0);
@@ -31,7 +32,7 @@ const WhatIOffer = () => {
   }, [isHovered]);
 
   return (
-    <>
+    <Fade>
       <HeaderTitle title="What I Offer" />
       <div className="overflow-hidden">
         <div
@@ -42,7 +43,9 @@ const WhatIOffer = () => {
             <div
               key={item.id}
               className={` w-[99%] px-6 py-4 mx-auto rounded-md cursor-pointer  md:min-w-[350px] md:px-8 md:py-6 ${
-                darkMode ? "bg-[#222f30] border border-customGreen hover:border-transparent" : "bg-customLavender border"
+                darkMode
+                  ? "bg-[#222f30] border border-customGreen hover:border-transparent"
+                  : "bg-customLavender border"
               }`}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
@@ -54,7 +57,7 @@ const WhatIOffer = () => {
           ))}
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 
