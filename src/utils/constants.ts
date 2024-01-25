@@ -84,6 +84,12 @@ const frontEndSkills = [
       "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
     title: "React Query",
   },
+  {
+    id: 111,
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
+    title: "SASS",
+  },
 ];
 
 const backEndSkills = [
