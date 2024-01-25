@@ -15,7 +15,7 @@ const LeftSection = ({ aboutRef }: Props) => {
         </h1>
       </div>
       <h1 className="text-[16px] mt-2 font-inter font-normal lg:mt-6 lg:text-[20px]">
-        Software Developer from Bengaluru
+        Software Developer (MERN) from Bengaluru
       </h1>
       <button
         onClick={() => {

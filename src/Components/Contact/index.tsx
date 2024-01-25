@@ -6,6 +6,7 @@ import {
 } from "../../utils/constants";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { AiOutlineCopyright } from "react-icons/ai";
+import { IoMailOpen } from "react-icons/io5";
 import AK from "../../assets/Icons/AK";
 import useStore from "../../store";
 const Fade = require("react-reveal/Fade");
@@ -27,8 +28,14 @@ const Contact = () => {
         </div>
         <div className="flex gap-x-10 items-center">
           <h1 className="text-[14px]">{contactNumber}</h1>
-          <h1 className="text-[14px]">{contactEmail}</h1>
-
+          <a
+            href="mailTo:heyabrarkhan@gmail.com"
+            target="_blank"
+            className="!text-[14px] flex items-center gap-x-2"
+          >
+            <IoMailOpen />
+            {contactEmail}
+          </a>
           <div className="flex gap-x-10 items-center">
             <a href={githubURL} target="_blank" rel="noreferrer">
               <BsGithub className="w-[25px] h-[25px]" />
@@ -55,7 +62,14 @@ const Contact = () => {
         </div>
         <div className="flex justify-around mt-3">
           <h1 className="text-[12px]">{contactNumber}</h1>
-          <h1 className="text-[12px]">{contactEmail}</h1>
+          <a
+            href="mailTo:heyabrarkhan@gmail.com"
+            target="_blank"
+            className="!text-[12px] flex items-center gap-x-2"
+          >
+            <IoMailOpen />
+            {contactEmail}
+          </a>
         </div>
       </div>
       <h1 className="text-[12px] text-center mt-10 lg:text-[14px]">

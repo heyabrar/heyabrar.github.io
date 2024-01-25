@@ -31,7 +31,7 @@ const ProjectsUI = ({
     <div className="first:mt-10 mt-14 lg:mt-20">
       <Fade left={fade === "left"} right={fade === "right"}>
         <div
-          className={`flex flex-col gap-x-10 gap-y-8 first:mt-1 mt-10 items-center lg:mt-20 lg:flex-row lg:w-[90%] lg:mx-auto`}
+          className={`flex flex-col gap-x-10 gap-y-4 first:mt-1 mt-10 items-center lg:mt-20 lg:flex-row lg:w-[90%] lg:mx-auto`}
         >
           <div className="md:!w-[70%] relative lg:!w-[50%]">
             <a href={liveLink} target="_blank" rel="noreferrer">
