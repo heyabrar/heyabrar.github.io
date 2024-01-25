@@ -11,7 +11,7 @@ const Experience = () => {
           <HeaderTitle title="Experience" />
         </div>
 
-        <div className="lg:mt-8">
+        <div className="lg:mt-2">
           {jobExperience?.map((item) => {
             return (
               <div className="flex flex-col gap-y-5 gap-x-10 w-full px-4 py-8 rounded-md md:flex-row md:!w-fit md:mx-auto">

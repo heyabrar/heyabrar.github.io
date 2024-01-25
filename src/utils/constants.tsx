@@ -1,3 +1,11 @@
+import { IProject } from "../interfaces";
+import { FaCode } from "react-icons/fa";
+import { FaPaintBrush } from "react-icons/fa";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { FaLightbulb } from "react-icons/fa";
+import { FaHandHolding } from "react-icons/fa";
+import { FaPeopleArrows } from "react-icons/fa6";
+import { RiTeamFill } from "react-icons/ri";
 import SupportSystemImage from "../assets/Images/Projects/Support-System/image.webp";
 import SupportSystemHoverImage from "../assets/Images/Projects/Support-System/hoverImage.webp";
 import JobPortalImage from "../assets/Images/Projects/JobPortal/image.webp";
@@ -8,7 +16,6 @@ import PWSkillsProfileImage from "../assets/Images/Projects/PWSkillsProfile/imag
 import PWSkillsProfileHoverImage from "../assets/Images/Projects/PWSkillsProfile/hoverImage.webp";
 import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/image.webp";
 import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
-import { IProject } from "../interfaces";
 
 const aboutContent = {
   text: "Hello! I'm Abrar Khan, a Front-End Developer at Ineuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences. With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
@@ -283,6 +290,57 @@ const initialProjectData = {
   title: "",
 };
 
+const whatIOffer = [
+  {
+    id: 1,
+    title: "Web Development",
+    desc: "Craft tailored websites for your unique needs.",
+    icon: <FaCode className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />,
+  },
+  {
+    id: 2,
+    title: "User-Centric Design",
+    desc: "Create exceptional user experiences through intuitive design.",
+    icon: (
+      <FaPaintBrush className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />
+    ),
+  },
+  {
+    id: 3,
+    title: "Stay Ahead of Trends",
+    desc: "Dedicated to staying current with industry trends and innovations.",
+    icon: (
+      <FaArrowTrendUp className="w-[20px] h-[20px] md:w-[30px]  md:h-[30px]" />
+    ),
+  },
+  {
+    id: 4,
+    title: "Collaborative Project Enthusiast",
+    desc: "Love working in teams to bring ideas to life.",
+    icon: <RiTeamFill className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />,
+  },
+  {
+    id: 5,
+    title: "Open for Exciting Opportunities",
+    desc: "Connect for web development projects that inspire.",
+    icon: <FaLightbulb className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />,
+  },
+  {
+    id: 6,
+    title: "Passionate Front-End Developer",
+    desc: "Turning passion into pixel-perfect interfaces.",
+    icon: (
+      <FaHandHolding className="w-[20px] h-[20px] md:w-[30px] md:h-[30px]" />
+    ),
+  },
+  {
+    id: 7,
+    title: "Client-Focused Development",
+    desc: "Your goals guide the creation of impactful web solutions.",
+    icon: <FaPeopleArrows className="w-[30px] h-[30px]" />,
+  },
+];
+
 export {
   aboutContent,
   linkedInURL,
@@ -296,4 +354,5 @@ export {
   projectsDetails,
   jobExperience,
   initialProjectData,
+  whatIOffer,
 };

@@ -13,6 +13,7 @@ import Swipe from "./assets/Icons/Swipe";
 import MobileSwipe from "./assets/Icons/MobileSwipe";
 import useStore from "./store";
 import Glow from "./assets/Icons/Glow";
+import WhatIOffer from "./Components/WhatIOffer";
 
 function App() {
   const homeRef = useRef(null);
@@ -81,11 +82,15 @@ function App() {
             <About />
           </div>
 
+          <div className="mt-14 lg:mt-36">
+            <WhatIOffer />
+          </div>
+
           <div className="mt-14 lg:mt-36" ref={experienceRef}>
             <Experience />
           </div>
 
-          <div className="mt-14 lg:mt-36" ref={projectRef}>
+          <div className="mt-14 lg:mt-32" ref={projectRef}>
             <Projects />
           </div>
 

@@ -28,7 +28,7 @@ const ProjectsUI = ({
   const { setProjectData } = useStore();
 
   return (
-    <div className="first:mt-10 mt-14 lg:mt-20">
+    <div className="first:mt-4 mt-14 lg:mt-20 lg:first:mt-10">
       <Fade left={fade === "left"} right={fade === "right"}>
         <div
           className={`flex flex-col gap-x-10 gap-y-4 first:mt-1 mt-10 items-center lg:mt-20 lg:flex-row lg:w-[90%] lg:mx-auto`}
