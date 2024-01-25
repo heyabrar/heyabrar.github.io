@@ -14,7 +14,6 @@ const WhatIOffer = () => {
       const slider = document.querySelector(".slider-container");
       const scrollWidth = slider?.scrollWidth;
       const clientWidth = slider?.clientWidth;
-
       setScrollPosition((prevPosition) => {
         if (scrollWidth && clientWidth) {
           if (prevPosition >= scrollWidth - clientWidth) {
@@ -32,7 +31,7 @@ const WhatIOffer = () => {
   }, [isHovered]);
 
   return (
-    <Fade>
+    <Fade bottom>
       <HeaderTitle title="What I Offer" />
       <div className="overflow-hidden">
         <div
