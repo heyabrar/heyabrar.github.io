@@ -90,7 +90,7 @@ function App() {
             <Experience />
           </div>
 
-          <div className="mt-14 lg:mt-32" ref={projectRef}>
+          <div className="mt-14 lg:mt-28" ref={projectRef}>
             <Projects />
           </div>
 
