@@ -82,6 +82,7 @@ const Contact = () => {
         </span>
         {currentYear}
       </h1>
+      <p>Last updated : 12-02-2024</p>
     </Fade>
   );
 };
