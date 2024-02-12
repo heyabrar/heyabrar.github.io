@@ -14,7 +14,7 @@ const Experience = () => {
         <div className="lg:mt-2">
           {jobExperience?.map((item) => {
             return (
-              <div className="flex flex-col gap-y-5 gap-x-10 w-full rounded-md md:flex-row md:!w-fit md:mx-auto">
+              <div className="flex flex-col gap-y-5 gap-x-10 w-full rounded-md md:flex-row md:!w-fit md:mx-auto" key={item._id}>
                 <img
                   src={item?.organization?.image}
                   alt={item?.organization?.title}
