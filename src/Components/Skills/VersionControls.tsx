@@ -11,7 +11,7 @@ const VersionControls = () => {
       <div className="flex gap-x-20 justify-center mt-6 lg:gap-x-60 ">
         {versionControl?.map((item) => {
           return (
-            <div>
+            <div key={item.id}>
               <img
                 src={item?.image}
                 alt={item?.title}

@@ -31,7 +31,7 @@ const Contact = () => {
           <a
             href="mailTo:heyabrarkhan@gmail.com"
             target="_blank"
-            className="!text-[14px] flex items-center gap-x-2"
+            className="!text-[14px] flex items-center gap-x-2" rel="noreferrer"
           >
             <IoMailOpen />
             {contactEmail}
@@ -65,7 +65,7 @@ const Contact = () => {
           <a
             href="mailTo:heyabrarkhan@gmail.com"
             target="_blank"
-            className="!text-[12px] flex items-center gap-x-2"
+            className="!text-[12px] flex items-center gap-x-2" rel="noreferrer"
           >
             <IoMailOpen />
             {contactEmail}
@@ -82,6 +82,7 @@ const Contact = () => {
         </span>
         {currentYear}
       </h1>
+      <h1 className="text-center text-[12px] mt-2 lg:text-[14px]">All rights reserved.</h1>
     </Fade>
   );
 };
