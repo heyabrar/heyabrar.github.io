@@ -82,7 +82,6 @@ const Contact = () => {
         </span>
         {currentYear}
       </h1>
-      <h1 className="text-center text-[12px] mt-2 lg:text-[14px]">All rights reserved.</h1>
     </Fade>
   );
 };
