@@ -14,7 +14,7 @@ const ProjectsDetailedModal = ({ openModal, handleCloseModal }: Props) => {
         title={projectData?.title || ""}
         open={openModal}
         handleCloseModal={handleCloseModal}
-        className="hidden md:w-[50%] lg:block bg-customGreen text-white max-h-[500px] overflow-y-scroll"
+        className="hidden md:w-[50%] lg:block bg-customGreen text-white max-h-[400px] overflow-y-scroll hideScroll"
       >
         <h1 className="leading-[30px] mt-2">{projectData?.description}</h1>
         <h1 className="leading-[30px] mt-2">{projectData?.description1}</h1>
