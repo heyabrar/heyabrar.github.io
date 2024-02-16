@@ -59,9 +59,8 @@ const ProjectsUI = ({
             </div>
 
             <div
-              className={`${
-                readMore ? "h-auto" : "h-[90px] lg:h-[100px]"
-              } overflow-hidden lg:hidden`}
+              className={`${readMore ? "h-auto" : "h-[90px] lg:h-[100px]"
+                } overflow-hidden lg:hidden`}
             >
               <h1 className="text-[12px] mt-2 leading-[20px] lg:text-[15px] lg:leading-[30px]">
                 {description}
@@ -70,6 +69,12 @@ const ProjectsUI = ({
               {description1 && (
                 <h1 className="text-[12px] mt-2 leading-[20px] lg:text-[15px] lg:leading-[30px]">
                   {description1}
+                </h1>
+              )}
+
+              {description2 && (
+                <h1 className="text-[12px] mt-2 leading-[20px] lg:text-[15px] lg:leading-[30px]">
+                  {description2}
                 </h1>
               )}
             </div>
