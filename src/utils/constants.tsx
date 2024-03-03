@@ -18,7 +18,7 @@ import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/im
 import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
 
 const aboutContent = {
-  text: "Hello! I'm Abrar Khan, a Front-End Developer at iNeuron.ai, now part of PhyicsWallah. I'm passionate about crafting exceptional web experiences, With expertise in Front-End Technologies. I thrive on challenges, stay current with trends, and love collaborative projects. Explore my portfolio, and let's connect for exciting opportunities in web development!",
+  text: "Hi there! I'm a seasoned Front-End Developer with expertise in UI/UX design, staying updated on industry trends. I'm passionate about crafting exceptional web experiences and proficient in Front-End Technologies. Additionally, I can handle MERN stack technologies. I thrive on challenges, love collaborative projects, and invite you to explore my portfolio. Let's connect for exciting web development opportunities!",
 };
 
 const linkedInURL = "https://www.linkedin.com/in/heyabrar";
