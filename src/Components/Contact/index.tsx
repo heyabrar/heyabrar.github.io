@@ -4,7 +4,7 @@ import {
   githubURL,
   linkedInURL,
 } from "../../utils/constants";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { AiOutlineCopyright } from "react-icons/ai";
 import { IoMailOpen } from "react-icons/io5";
 import AK from "../../assets/Icons/AK";
@@ -15,6 +15,13 @@ const Contact = () => {
   const { darkMode } = useStore();
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
+  const phoneNumber = "8217361455";
+
+  const handleWhatsAppClick = () => {
+    console.log("sfada");
+    const whatsappUrl = `whatsapp://send?phone=${phoneNumber}`;
+    if (typeof window !== "undefined") window.location.href = whatsappUrl;
+  };
 
   return (
     <Fade bottom>
@@ -27,11 +34,18 @@ const Contact = () => {
           <AK />
         </div>
         <div className="flex gap-x-10 items-center">
-          <h1 className="text-[14px]">{contactNumber}</h1>
+          <button
+            className="flex gap-x-2 items-center border"
+            onClick={handleWhatsAppClick}
+          >
+            <BsWhatsapp />
+            <h1 className="text-[14px]">{contactNumber}</h1>
+          </button>
           <a
             href="mailTo:heyabrarkhan@gmail.com"
             target="_blank"
-            className="!text-[14px] flex items-center gap-x-2" rel="noreferrer"
+            className="!text-[14px] flex items-center gap-x-2"
+            rel="noreferrer"
           >
             <IoMailOpen />
             {contactEmail}
@@ -61,11 +75,18 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-around mt-3">
-          <h1 className="text-[12px]">{contactNumber}</h1>
+          <button
+            className="flex gap-x-1 items-center"
+            onClick={handleWhatsAppClick}
+          >
+            <BsWhatsapp className="text-[12px]" />
+            <h1 className="text-[12px]">{contactNumber}</h1>
+          </button>
           <a
             href="mailTo:heyabrarkhan@gmail.com"
             target="_blank"
-            className="!text-[12px] flex items-center gap-x-2" rel="noreferrer"
+            className="!text-[12px] flex items-center gap-x-2"
+            rel="noreferrer"
           >
             <IoMailOpen />
             {contactEmail}

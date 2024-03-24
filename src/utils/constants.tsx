@@ -271,13 +271,25 @@ const projectsDetails: IProject[] = [
 const jobExperience = [
   {
     _id: 1,
-    designation: "SDE-1",
+    designation: "SDE - 1",
     organization: {
       title: "iNeuron.ai (PhysicsWallah) · Full-time",
       image:
-        "https://media.licdn.com/dms/image/D560BAQF-jLf4vWUx9g/company-logo_100_100/0/1699514201876/ineuron_ai_logo?e=1710374400&v=beta&t=yXXU-iLVEW3c2jc0iXQPcGqoeqNOpIjHMSVcy7bWWsc",
+        "https://media.licdn.com/dms/image/D560BAQF-jLf4vWUx9g/company-logo_200_200/0/1699514201876/ineuron_ai_logo?e=2147483647&v=beta&t=CNFSabNS2Dwrn6Ajq9v94rGzFkfuJp0kUm_s5cMNY-U",
     },
-    duration: "Mar 2023 - Present",
+    duration: "Mar 2023 - Mar 2024",
+    location: "Bengaluru, Karnataka, India · On-site",
+    mainTitle: "Software Development Engineer -1 (Frontend Developer)",
+  },
+  {
+    _id: 2,
+    designation: "SDE - 1",
+    organization: {
+      title: "Seekho · Full-time",
+      image:
+        "https://play-lh.googleusercontent.com/xNIN7jOhQyMcwvpgIQaF81Blbn5crzjf7lao39rxabLR4Xl8jsEIBN2XTvoPMDAaQKo",
+    },
+    duration: "Mar 2024 - Present",
     location: "Bengaluru, Karnataka, India · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
   },
