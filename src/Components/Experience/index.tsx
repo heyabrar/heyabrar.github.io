@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderTitle from "../common/HeaderTitle";
 import { jobExperience } from "../../utils/constants";
 const Fade = require("react-reveal/Fade");
@@ -11,14 +10,17 @@ const Experience = () => {
           <HeaderTitle title="Experience" />
         </div>
 
-        <div className="lg:mt-2">
-          {jobExperience?.map((item) => {
+        <div className="mt-4 grid gap-y-8 lg:grid-cols-2 lg:mt-6">
+          {[...jobExperience]?.reverse().map((item) => {
             return (
-              <div className="flex flex-col gap-y-5 gap-x-10 w-full rounded-md md:flex-row md:!w-fit md:mx-auto" key={item._id}>
+              <div
+                className="flex flex-row gap-y-5 gap-x-8 w-full rounded-md md:!w-fit md:mx-auto lg:flex-col"
+                key={item._id}
+              >
                 <img
                   src={item?.organization?.image}
                   alt={item?.organization?.title}
-                  className="w-[80px] h-[80px]"
+                  className="w-[60px] h-[60px] rounded-md md:w-[80px] md:h-[80px]"
                 />
 
                 <div className="first:!leading-0 leading-8 text-[14px] lg:text-[16px]">
