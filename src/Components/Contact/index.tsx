@@ -18,7 +18,6 @@ const Contact = () => {
   const phoneNumber = "8217361455";
 
   const handleWhatsAppClick = () => {
-    console.log("sfada");
     const whatsappUrl = `whatsapp://send?phone=${phoneNumber}`;
     if (typeof window !== "undefined") window.location.href = whatsappUrl;
   };
@@ -35,7 +34,7 @@ const Contact = () => {
         </div>
         <div className="flex gap-x-10 items-center">
           <button
-            className="flex gap-x-2 items-center border"
+            className="flex gap-x-2 items-center"
             onClick={handleWhatsAppClick}
           >
             <BsWhatsapp />

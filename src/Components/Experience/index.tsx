@@ -14,7 +14,7 @@ const Experience = () => {
           {[...jobExperience]?.reverse().map((item) => {
             return (
               <div
-                className="flex flex-row gap-y-5 gap-x-8 w-full rounded-md md:!w-fit md:mx-auto lg:flex-col"
+                className="flex flex-col gap-y-5 gap-x-8 w-full rounded-md md:!w-fit md:mx-auto lg:flex-col"
                 key={item._id}
               >
                 <img
