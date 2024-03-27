@@ -281,18 +281,18 @@ const jobExperience = [
     location: "Bengaluru, Karnataka, India  · Full-time · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
   },
-  {
-    _id: 2,
-    designation: "SDE - 1",
-    organization: {
-      title: "Seekho · Online Audio and Video Media",
-      image:
-        "https://play-lh.googleusercontent.com/xNIN7jOhQyMcwvpgIQaF81Blbn5crzjf7lao39rxabLR4Xl8jsEIBN2XTvoPMDAaQKo",
-    },
-    duration: "Mar 2024 - Present",
-    location: "Bengaluru, Karnataka, India · Full-time · On-site",
-    mainTitle: "Software Development Engineer -1 (Frontend Developer)",
-  },
+  // {
+  //   _id: 2,
+  //   designation: "SDE - 1",
+  //   organization: {
+  //     title: "Seekho · Online Audio and Video Media",
+  //     image:
+  //       "https://play-lh.googleusercontent.com/xNIN7jOhQyMcwvpgIQaF81Blbn5crzjf7lao39rxabLR4Xl8jsEIBN2XTvoPMDAaQKo",
+  //   },
+  //   duration: "Mar 2024 - Present",
+  //   location: "Bengaluru, Karnataka, India · Full-time · On-site",
+  //   mainTitle: "Software Development Engineer -1 (Frontend Developer)",
+  // },
 ];
 
 const initialProjectData = {
