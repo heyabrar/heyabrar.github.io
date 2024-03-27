@@ -10,7 +10,7 @@ const Experience = () => {
           <HeaderTitle title="Experience" />
         </div>
 
-        <div className="mt-4 grid gap-y-8 lg:grid-cols-2 lg:mt-6">
+        <div className="mt-4 lg:mt-6">
           {[...jobExperience]?.reverse().map((item) => {
             return (
               <div
