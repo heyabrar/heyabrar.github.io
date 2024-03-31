@@ -47,13 +47,13 @@ const frontEndSkills = [
     id: 4,
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    title: "React.Js",
+    title: "React.js",
   },
   {
     id: 5,
     image:
       "https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png",
-    title: "Redux.Js",
+    title: "Redux.js",
   },
   {
     id: 6,
@@ -103,7 +103,7 @@ const backEndSkills = [
   {
     id: 1,
     image: "https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png",
-    title: "Node.Js",
+    title: "Node.js",
   },
   {
     id: 2,
@@ -114,7 +114,7 @@ const backEndSkills = [
     id: 3,
     image:
       "https://assets.website-files.com/61ca3f775a79ec5f87fcf937/6202fcdee5ee8636a145a41b_1234.png",
-    title: "Express.Js",
+    title: "Express.js",
   },
   {
     id: 4,
@@ -151,6 +151,12 @@ const otherDevTools = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/1900px-Android_Studio_Icon_3.6.svg.png",
     title: "Android Studio",
   },
+  {
+    id: 5,
+    image:
+      "https://static-00.iconduck.com/assets.00/google-tag-manager-icon-2048x2048-y375dol4.png",
+    title: "Google Tag Manager",
+  },
 ];
 
 const versionControl = [
@@ -164,6 +170,12 @@ const versionControl = [
     id: 2,
     image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
     title: "Git",
+  },
+  {
+    id: 3,
+    image:
+      "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-512.png",
+    title: "Bitbucket",
   },
 ];
 
@@ -281,18 +293,18 @@ const jobExperience = [
     location: "Bengaluru, Karnataka, India  · Full-time · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
   },
-  // {
-  //   _id: 2,
-  //   designation: "SDE - 1",
-  //   organization: {
-  //     title: "Seekho · Online Audio and Video Media",
-  //     image:
-  //       "https://play-lh.googleusercontent.com/xNIN7jOhQyMcwvpgIQaF81Blbn5crzjf7lao39rxabLR4Xl8jsEIBN2XTvoPMDAaQKo",
-  //   },
-  //   duration: "Mar 2024 - Present",
-  //   location: "Bengaluru, Karnataka, India · Full-time · On-site",
-  //   mainTitle: "Software Development Engineer -1 (Frontend Developer)",
-  // },
+  {
+    _id: 2,
+    designation: "SDE - 1",
+    organization: {
+      title: "Seekho · Online Audio and Video Media",
+      image:
+        "https://play-lh.googleusercontent.com/xNIN7jOhQyMcwvpgIQaF81Blbn5crzjf7lao39rxabLR4Xl8jsEIBN2XTvoPMDAaQKo",
+    },
+    duration: "Mar 2024 - Present",
+    location: "Bengaluru, Karnataka, India · Full-time · On-site",
+    mainTitle: "Software Development Engineer -1 (Frontend Developer)",
+  },
 ];
 
 const initialProjectData = {
