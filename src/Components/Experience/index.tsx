@@ -1,5 +1,6 @@
 import HeaderTitle from "../common/HeaderTitle";
 import { jobExperience } from "../../utils/constants";
+import { handleCalculateDateDifference } from "../../utils/helper/helperFunctions";
 const Fade = require("react-reveal/Fade");
 
 const Experience = () => {
@@ -26,7 +27,15 @@ const Experience = () => {
                 <div className="first:!leading-0 leading-8 text-[14px] lg:text-[16px]">
                   <h1 className="font-bold">{item?.designation}</h1>
                   <h1>{item?.organization?.title}</h1>
-                  <h1>{item?.duration}</h1>
+                  <h1>
+                    {item?.duration} · {""}
+                    <span className="text-[14px]">
+                      {handleCalculateDateDifference({
+                        startDate: item?.startDate,
+                        endDate: item?.endDate,
+                      })}
+                    </span>{" "}
+                  </h1>
                   <h1>{item?.location}</h1>
                   <h1>{item?.mainTitle}</h1>
                 </div>
