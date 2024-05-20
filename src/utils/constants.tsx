@@ -292,6 +292,8 @@ const jobExperience = [
     duration: "Mar 2023 - Mar 2024",
     location: "Bengaluru, Karnataka, India  · Full-time · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
+    startDate: "2023-03-17",
+    endDate: "2024-03-18",
   },
   {
     _id: 2,
@@ -304,6 +306,8 @@ const jobExperience = [
     duration: "Mar 2024 - Present",
     location: "Bengaluru, Karnataka, India · Full-time · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
+    startDate: "2024-03-04",
+    endDate: "2024-05-20",
   },
 ];
 
