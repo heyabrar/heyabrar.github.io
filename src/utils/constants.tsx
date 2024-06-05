@@ -28,13 +28,13 @@ const frontEndSkills = [
   {
     id: 1,
     image:
-      "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png",
+      "https://static-00.iconduck.com/assets.00/html5-icon-1010x1024-xtv3oxib.png",
     title: "HTML5",
   },
   {
     id: 2,
     image:
-      "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
+      "https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png",
     title: "CSS3",
   },
   {
