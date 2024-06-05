@@ -70,7 +70,7 @@ const frontEndSkills = [
   {
     id: 8,
     image:
-      "https://i.ytimg.com/an/cxm6FNyKzwA/3903739474801779860_mq.jpg?v=62a9dfef",
+      "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
     title: "Next.js",
   },
   {
@@ -86,16 +86,28 @@ const frontEndSkills = [
     title: "Zustand",
   },
   {
-    id: 111,
+    id: 11,
     image:
       "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
     title: "React Query",
   },
   {
-    id: 111,
+    id: 12,
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png",
     title: "SASS",
+  },
+  {
+    id: 13,
+    image:
+      "https://camo.githubusercontent.com/b872b9ada0c2c3d373bbb0c356eb4af353127335fc3d2e611964433864ab4de1/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67",
+    title: "Bootstrap",
+  },
+  {
+    id: 14,
+    image:
+      "https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png",
+    title: "Material UI",
   },
 ];
 
@@ -119,7 +131,7 @@ const backEndSkills = [
   {
     id: 4,
     image:
-      "https://logowik.com/content/uploads/images/postman-api-platform6643.logowik.com.webp",
+      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
     title: "Postman",
   },
 ];
@@ -141,7 +153,7 @@ const otherDevTools = [
   {
     id: 3,
     image:
-      "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+      "https://i.pinimg.com/originals/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.png",
     title: "Figma",
   },
 
@@ -156,6 +168,34 @@ const otherDevTools = [
     image:
       "https://static-00.iconduck.com/assets.00/google-tag-manager-icon-2048x2048-y375dol4.png",
     title: "Google Tag Manager",
+  },
+  {
+    id: 6,
+    title: "Google Search Console",
+    image: "https://cdn.worldvectorlogo.com/logos/google-search-console.svg",
+  },
+  {
+    id: 7,
+    title: "Asana",
+    image:
+      "https://cdn.iconscout.com/icon/free/png-256/free-asana-3521284-2944703.png?f=webp",
+  },
+  {
+    id: 8,
+    title: "Stackblitz",
+    image: "https://www.finsmes.com/wp-content/uploads/2022/04/stackblitz.jpeg",
+  },
+  {
+    id: 9,
+    title: "New relic",
+    image:
+      "https://seeklogo.com/images/N/new-relic-logo-E7CC1E9143-seeklogo.com.png",
+  },
+  {
+    id: 10,
+    title: "Sentry",
+    image:
+      "https://static-00.iconduck.com/assets.00/sentry-icon-512x460-s8hgd8yj.png",
   },
 ];
 
@@ -307,7 +347,7 @@ const jobExperience = [
     location: "Bengaluru, Karnataka, India · Full-time · On-site",
     mainTitle: "Software Development Engineer -1 (Frontend Developer)",
     startDate: "2024-03-04",
-    endDate: "2024-05-20",
+    endDate: "",
   },
 ];
 
