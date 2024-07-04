@@ -16,6 +16,8 @@ import PWSkillsProfileImage from "../assets/Images/Projects/PWSkillsProfile/imag
 import PWSkillsProfileHoverImage from "../assets/Images/Projects/PWSkillsProfile/hoverImage.webp";
 import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/image.webp";
 import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
+import SeekhoLandingPage from "../assets/Images/Projects/Seekho/seekho-landing-page.webp";
+import SeekhoAppPage from "../assets/Images/Projects/Seekho/seekho-app-page.webp";
 
 const aboutContent = {
   text: "Hi there! I'm a seasoned Front-End Developer with expertise in UI/UX design, staying updated on industry trends. I'm passionate about crafting exceptional web experiences and proficient in Front-End Technologies. Additionally, I can handle MERN stack technologies. I thrive on challenges, love collaborative projects, and invite you to explore my portfolio. Let's connect for exciting web development opportunities!",
@@ -223,6 +225,24 @@ const contactNumber = "+91 8217361455";
 const contactEmail = "heyabrarkhan@gmail.com";
 
 const projectsDetails: IProject[] = [
+  {
+    id: 0,
+    title: "Seekho",
+    organization: "Seekho",
+    duration: "2024-2024",
+    description:
+      "Seekho, an edutainment platform that offers bite-sized videos on a variety of topics such as Technology, Money, YouTube, Instagram, and more. As the sole frontend developer at Seekho, my responsibilities include maintaining and improving the platform's overall functionality and user interface/user experience (UI/UX). I ensure the website is user-friendly, visually appealing, and operates smoothly to provide an engaging and informative experience for our users. My work involves using technologies like Next.js and Tailwind CSS, and I manage deployments using AWS Amplify",
+    description1: "",
+    image: SeekhoLandingPage,
+    hoverImage: SeekhoAppPage,
+    projectType: "",
+    techStack: "Next.js | JavaScript | SAAS | Redux | Tailwind",
+    liveLink: "https://seekho.in",
+    githubLink: "",
+    flexRow: "lg:!flex-row",
+    fade: "left",
+  },
+
   {
     id: 1,
     title: "Support System",
