@@ -18,7 +18,7 @@ interface IProject {
   hoverImage: string;
   projectType?: string;
   techStack: string;
-  liveLink: string;
+  liveLink?: string;
   githubLink?: string;
   flexRow: string;
   fade: string;

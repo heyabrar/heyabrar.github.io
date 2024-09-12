@@ -18,6 +18,8 @@ import PwSkillsCheckoutImage from "../assets/Images/Projects/PWSkillsCheckout/im
 import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsCheckout/hoverImage.webp";
 import SeekhoLandingPage from "../assets/Images/Projects/Seekho/seekho-landing-page.webp";
 import SeekhoAppPage from "../assets/Images/Projects/Seekho/seekho-app-page.webp";
+import SeekhoShowPage from "../assets/Images/Projects/SeekhoCms/seekho-show-page.webp";
+import SeekhoShowDetailsPage from "../assets/Images/Projects/SeekhoCms/sekho-show-details-page.webp";
 
 const aboutContent = {
   text: "Hi there! I'm a seasoned Front-End Developer with expertise in UI/UX design, staying updated on industry trends. I'm passionate about crafting exceptional web experiences and proficient in Front-End Technologies. Additionally, I can handle MERN stack technologies. I thrive on challenges, love collaborative projects, and invite you to explore my portfolio. Let's connect for exciting web development opportunities!",
@@ -60,7 +62,7 @@ const frontEndSkills = [
   {
     id: 6,
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
     title: "Tailwind CSS",
   },
   {
@@ -102,7 +104,7 @@ const frontEndSkills = [
   {
     id: 13,
     image:
-      "https://camo.githubusercontent.com/b872b9ada0c2c3d373bbb0c356eb4af353127335fc3d2e611964433864ab4de1/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67",
+      "https://framerusercontent.com/images/btbksTQnswjezUKyzZmXPOtLkKQ.jpg",
     title: "Bootstrap",
   },
   {
@@ -227,24 +229,44 @@ const contactEmail = "heyabrarkhan@gmail.com";
 const projectsDetails: IProject[] = [
   {
     id: 0,
+    title: "Seekho CMS Platform",
+    organization: "Seekho",
+    duration: "2024-2024",
+    description:
+      "As the Lead Developer for Seekho CMS, I have played a pivotal role in designing and developing a powerful platform that controls the entire Seekho app. The CMS is used by Seekho admins and content creators to manage the app’s content efficiently. Creators can upload videos directly to the platform, while the content team reviews and approves the material before it goes live. The CMS is responsible for determining which content is displayed and tailored to specific users, providing a highly customizable experience.",
+    description1:
+      "A key feature of the CMS is its role-based access control, ensuring that different roles, such as admin, blogger, and creator, have distinct levels of access to the platform’s features. This ensures that tasks are performed smoothly and securely by the internal team.",
+    description2:
+      "As the lead developer, I am responsible for building and maintaining complex features, improving workflows, and ensuring the platform is updated seamlessly. My contributions have enhanced efficiency, making the internal operations of Seekho more streamlined and effective.",
+    image: SeekhoShowPage,
+    hoverImage: SeekhoShowDetailsPage,
+    projectType: "",
+    techStack: "React | JavaScript | Material UI | Redux | Tailwind",
+    // liveLink: "",
+    // githubLink: "",
+    flexRow: "lg:!flex-row",
+    fade: "left",
+  },
+  {
+    id: 1,
     title: "Seekho",
     organization: "Seekho",
     duration: "2024-2024",
     description:
-      "Seekho, an edutainment platform that offers bite-sized videos on a variety of topics such as Technology, Money, YouTube, Instagram, and more. As the sole frontend developer at Seekho, my responsibilities include maintaining and improving the platform's overall functionality and user interface/user experience (UI/UX). I ensure the website is user-friendly, visually appealing, and operates smoothly to provide an engaging and informative experience for our users. My work involves using technologies like Next.js and Tailwind CSS, and I manage deployments using AWS Amplify",
+      "Seekho, an edutainment platform that offers bite-sized videos on a variety of topics such as Technology, Money, YouTube, Instagram, and more. As the lead frontend developer at Seekho, my responsibilities include maintaining and improving the platform's overall functionality and user interface/user experience (UI/UX). I ensure the website is user-friendly, visually appealing, and operates smoothly to provide an engaging and informative experience for our users. My work involves using technologies like Next.js and Tailwind CSS, and I manage deployments using AWS Amplify",
     description1: "",
     image: SeekhoLandingPage,
     hoverImage: SeekhoAppPage,
     projectType: "",
     techStack: "Next.js | JavaScript | SAAS | Redux | Tailwind",
     liveLink: "https://seekho.in",
-    githubLink: "",
+    // githubLink: "",
     flexRow: "lg:!flex-row",
     fade: "left",
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Support System",
     organization: "iNeuron.ai (PhysicsWallah)",
     duration: "2023-2024",
@@ -263,7 +285,7 @@ const projectsDetails: IProject[] = [
     fade: "left",
   },
   {
-    id: 2,
+    id: 3,
     title: "Job Portal",
     organization: "iNeuron.ai (PhysicsWallah)",
     duration: "2023-2023",
@@ -284,7 +306,7 @@ const projectsDetails: IProject[] = [
     fade: "right",
   },
   {
-    id: 3,
+    id: 4,
     title: "PW Institute of Innovation (PW IOI)",
     organization: "iNeuron.ai (PhysicsWallah)",
     duration: "2023-2023",
@@ -302,7 +324,7 @@ const projectsDetails: IProject[] = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Custom Checkout Page PW Skills",
     organization: "PW Skills (PhysicsWallah)",
     duration: "2023-2023",
@@ -321,7 +343,7 @@ const projectsDetails: IProject[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "LogIn & Profile Page PW Skills",
     duration: "2023-2023",
     organization: "PW Skills (PhysicsWallah)",

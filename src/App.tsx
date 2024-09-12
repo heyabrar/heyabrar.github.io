@@ -78,7 +78,7 @@ function App() {
             <HeroSection aboutRef={aboutRef} />
           </div>
 
-          <div className="mt-14 lg:mt-36" ref={aboutRef}>
+          <div className="mt-14 lg:mt-48" ref={aboutRef}>
             <About />
           </div>
 

@@ -59,8 +59,9 @@ const ProjectsUI = ({
             </div>
 
             <div
-              className={`${readMore ? "h-auto" : "h-[90px] lg:h-[100px]"
-                } overflow-hidden lg:hidden`}
+              className={`${
+                readMore ? "h-auto" : "h-[90px] lg:h-[100px]"
+              } overflow-hidden lg:hidden`}
             >
               <h1 className="text-[12px] mt-2 leading-[20px] lg:text-[15px] lg:leading-[30px]">
                 {description}
@@ -98,9 +99,12 @@ const ProjectsUI = ({
             <h1 className="mt-2 text-[12px] lg:text-[15px]">{techStack}</h1>
 
             <div className="flex gap-x-4 mt-4">
-              <a href={liveLink} target="_blank" rel="noreferrer">
-                <AiFillChrome className="w-[25px] h-[25px] hover:animate-spin" />
-              </a>
+              {liveLink && (
+                <a href={liveLink} target="_blank" rel="noreferrer">
+                  <AiFillChrome className="w-[25px] h-[25px] hover:animate-spin" />
+                </a>
+              )}
+
               {githubLink && (
                 <a href={githubLink} target="_blank" rel="noreferrer">
                   <AiFillGithub className="w-[25px] h-[25px] hover:animate-bounce" />
