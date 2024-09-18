@@ -229,13 +229,13 @@ const contactEmail = "heyabrarkhan@gmail.com";
 const projectsDetails: IProject[] = [
   {
     id: 0,
-    title: "Seekho CMS Platform",
+    title: "Seekho's Content Management System",
     organization: "Seekho",
     duration: "2024-2024",
     description:
-      "As the Lead Developer for Seekho CMS, I have played a pivotal role in designing and developing a powerful platform that controls the entire Seekho app. The CMS is used by Seekho admins and content creators to manage the app’s content efficiently. Creators can upload videos directly to the platform, while the content team reviews and approves the material before it goes live. The CMS is responsible for determining which content is displayed and tailored to specific users, providing a highly customizable experience.",
+      "As the Lead Developer for Seekho, I have played a pivotal role in designing and developing a powerful platform that controls the entire Seekho app. The CMS is used by Seekho admins and content creators to manage the app’s content efficiently. Creators can upload videos directly to the platform, while the content team reviews and approves the material before it goes live. The CMS is responsible for determining which content is displayed and tailored to specific users, providing a highly customizable experience.",
     description1:
-      "A key feature of the CMS is its role-based access control, ensuring that different roles, such as admin, blogger, and creator, have distinct levels of access to the platform’s features. This ensures that tasks are performed smoothly and securely by the internal team.",
+      "A key feature of the CMS is its role-based access control, ensuring that different roles, such as admin, blogger, and creator, have distinct levels of access to the platform’s features. This ensures that tasks are performed smoothly and securely by the internal team. Additionally, the CMS holds complex logic, including recommendations on the app's home screen and auto-play recommendations after each video, further enhancing the user experience.",
     description2:
       "As the lead developer, I am responsible for building and maintaining complex features, improving workflows, and ensuring the platform is updated seamlessly. My contributions have enhanced efficiency, making the internal operations of Seekho more streamlined and effective.",
     image: SeekhoShowPage,
@@ -249,12 +249,13 @@ const projectsDetails: IProject[] = [
   },
   {
     id: 1,
-    title: "Seekho",
+    title: "Seekho Website",
     organization: "Seekho",
     duration: "2024-2024",
     description:
-      "Seekho, an edutainment platform that offers bite-sized videos on a variety of topics such as Technology, Money, YouTube, Instagram, and more. As the lead frontend developer at Seekho, my responsibilities include maintaining and improving the platform's overall functionality and user interface/user experience (UI/UX). I ensure the website is user-friendly, visually appealing, and operates smoothly to provide an engaging and informative experience for our users. My work involves using technologies like Next.js and Tailwind CSS, and I manage deployments using AWS Amplify",
-    description1: "",
+      "Seekho is an edutainment platform that offers bite-sized videos on a variety of topics such as Technology, Money, YouTube, Instagram, and more",
+    description1:
+      "As the lead frontend developer at Seekho, my responsibilities include maintaining and improving the platform's overall functionality and user interface/user experience (UI/UX). I ensure the website is user-friendly, visually appealing, and operates smoothly to provide an engaging and informative experience for our users. My work involves using technologies like Next.js and Tailwind CSS, and I manage deployments using AWS EC2.",
     image: SeekhoLandingPage,
     hoverImage: SeekhoAppPage,
     projectType: "",
