@@ -6,9 +6,8 @@
 }
 
 .hideScroll::-webkit-scrollbar-track {
-  background: #719ba0;
+  background: black;
   width: 50px;
-  /* border-radius: 50%; */
 }
 
 .hideScroll::-webkit-scrollbar-thumb {
