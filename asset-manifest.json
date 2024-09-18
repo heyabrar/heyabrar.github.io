@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.689acf4f.css",
-    "main.js": "/static/js/main.d94f534c.js",
+    "main.css": "/static/css/main.d5634e00.css",
+    "main.js": "/static/js/main.4def005b.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/seekho-app-page.webp": "/static/media/seekho-app-page.d5e604e687768f7d1e29.webp",
     "static/media/Hero-image.png": "/static/media/Hero-image.7dc1a87373166f5a58fa.png",
@@ -11,12 +11,12 @@
     "static/media/hoverImage.webp": "/static/media/hoverImage.c3d9493b4823edbb22ec.webp",
     "static/media/seekho-landing-page.webp": "/static/media/seekho-landing-page.9407330dbcc71df8ba18.webp",
     "index.html": "/index.html",
-    "main.689acf4f.css.map": "/static/css/main.689acf4f.css.map",
-    "main.d94f534c.js.map": "/static/js/main.d94f534c.js.map",
+    "main.d5634e00.css.map": "/static/css/main.d5634e00.css.map",
+    "main.4def005b.js.map": "/static/js/main.4def005b.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.689acf4f.css",
-    "static/js/main.d94f534c.js"
+    "static/css/main.d5634e00.css",
+    "static/js/main.4def005b.js"
   ]
 }
