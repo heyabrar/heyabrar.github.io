@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.d5634e00.css",
-    "main.js": "/static/js/main.4def005b.js",
+    "main.js": "/static/js/main.c043bde8.js",
     "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
     "static/media/seekho-app-page.webp": "/static/media/seekho-app-page.d5e604e687768f7d1e29.webp",
     "static/media/Hero-image.png": "/static/media/Hero-image.7dc1a87373166f5a58fa.png",
-    "static/media/sekho-show-details-page.webp": "/static/media/sekho-show-details-page.9c35dc70566e7480e9f1.webp",
-    "static/media/seekho-show-page.webp": "/static/media/seekho-show-page.a8feeb2e485eb2a86ea3.webp",
+    "static/media/seekho-video-page.webp": "/static/media/seekho-video-page.7275d79436a206541b78.webp",
     "static/media/image.webp": "/static/media/image.333b38af5d31b0c10076.webp",
+    "static/media/seekho-show-page.webp": "/static/media/seekho-show-page.b11917be3a3bee22ef39.webp",
     "static/media/hoverImage.webp": "/static/media/hoverImage.c3d9493b4823edbb22ec.webp",
     "static/media/seekho-landing-page.webp": "/static/media/seekho-landing-page.9407330dbcc71df8ba18.webp",
     "index.html": "/index.html",
     "main.d5634e00.css.map": "/static/css/main.d5634e00.css.map",
-    "main.4def005b.js.map": "/static/js/main.4def005b.js.map",
+    "main.c043bde8.js.map": "/static/js/main.c043bde8.js.map",
     "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5634e00.css",
-    "static/js/main.4def005b.js"
+    "static/js/main.c043bde8.js"
   ]
 }
