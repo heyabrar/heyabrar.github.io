@@ -19,7 +19,7 @@ import PwSkillsCheckoutHoverImage from "../assets/Images/Projects/PWSkillsChecko
 import SeekhoLandingPage from "../assets/Images/Projects/Seekho/seekho-landing-page.webp";
 import SeekhoAppPage from "../assets/Images/Projects/Seekho/seekho-app-page.webp";
 import SeekhoShowPage from "../assets/Images/Projects/SeekhoCms/seekho-show-page.webp";
-import SeekhoShowDetailsPage from "../assets/Images/Projects/SeekhoCms/sekho-show-details-page.webp";
+import SeekhoVideoPage from "../assets/Images/Projects/SeekhoCms/seekho-video-page.webp";
 
 const aboutContent = {
   text: "Hi there! I'm a seasoned Front-End Developer with expertise in UI/UX design, staying updated on industry trends. I'm passionate about crafting exceptional web experiences and proficient in Front-End Technologies. Additionally, I can handle MERN stack technologies. I thrive on challenges, love collaborative projects, and invite you to explore my portfolio. Let's connect for exciting web development opportunities!",
@@ -239,7 +239,7 @@ const projectsDetails: IProject[] = [
     description2:
       "As the lead developer, I am responsible for building and maintaining complex features, improving workflows, and ensuring the platform is updated seamlessly. My contributions have enhanced efficiency, making the internal operations of Seekho more streamlined and effective.",
     image: SeekhoShowPage,
-    hoverImage: SeekhoShowDetailsPage,
+    hoverImage: SeekhoVideoPage,
     projectType: "",
     techStack: "React | JavaScript | Material UI | Redux | Tailwind",
     // liveLink: "",
