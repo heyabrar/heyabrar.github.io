@@ -92,7 +92,7 @@ const frontEndSkills = [
   {
     id: 11,
     image:
-      "https://seeklogo.com/images/R/react-query-logo-1340EA4CE9-seeklogo.com.png",
+      "https://miro.medium.com/v2/resize:fit:1400/1*elhu-42TzQEdsFjKDbQhhA.png",
     title: "React Query",
   },
   {
@@ -176,7 +176,8 @@ const otherDevTools = [
   {
     id: 6,
     title: "Google Search Console",
-    image: "https://cdn.worldvectorlogo.com/logos/google-search-console.svg",
+    image:
+      "https://media.licdn.com/dms/image/C5112AQEstDSuRjZkbg/article-cover_image-shrink_600_2000/0/1554279921309?e=2147483647&v=beta&t=waNPN8y4Dg5KLJkSXIOP6ON6ln_5M7j0fSp6qQv-_ho",
   },
   {
     id: 7,
@@ -200,6 +201,22 @@ const otherDevTools = [
     title: "Sentry",
     image:
       "https://static-00.iconduck.com/assets.00/sentry-icon-512x460-s8hgd8yj.png",
+  },
+  {
+    id: 11,
+    title: "Redash",
+    image: "https://avatars.githubusercontent.com/u/10746780?s=280&v=4",
+  },
+  {
+    id: 12,
+    title: "Confluence",
+    image: "https://cdn-icons-png.flaticon.com/512/5968/5968793.png",
+  },
+  {
+    id: 13,
+    title: "Canva",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
   },
 ];
 
