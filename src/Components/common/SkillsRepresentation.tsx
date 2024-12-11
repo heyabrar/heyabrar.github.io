@@ -8,11 +8,13 @@ const SkillsRepresentation = ({ data }: Props) => {
       {data.map((item) => {
         return (
           <div key={item?.id} className="">
-            <img
-              src={item?.image}
-              alt={item?.title}
-              className="w-[40px] h-[40px] lg:w-[65px] lg:h-[60px] mx-auto"
-            />
+            <div className="h-[50px] lg:h-[75px] flex items-center justify-center">
+              <img
+                src={item?.image}
+                alt={item?.title}
+                className="w-[40px] lg:w-[65px] mx-auto"
+              />
+            </div>
             <h1 className="text-center text-[12px] font-medium mt-2 lg:text-[14px]">
               {item?.title}
             </h1>

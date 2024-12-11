@@ -2,13 +2,11 @@ import { otherDevTools } from "../../utils/constants";
 import GradientTitle from "../common/GradientTitle";
 import SkillsRepresentation from "../common/SkillsRepresentation";
 
-type Props = {};
-
-const OtherDevTools = (props: Props) => {
+const OtherDevTools = () => {
   return (
     <div>
-      <div className="">
-        <GradientTitle title="OTHER DEV TOOLS" />
+      <div>
+        <GradientTitle title="OTHER TOOLS" />
       </div>
 
       <div>
