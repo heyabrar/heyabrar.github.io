@@ -6,7 +6,7 @@ const RightSection = () => {
       <img
         src={Image}
         alt="AK"
-        className="w-[80%] lg:w-[75%] mx-auto rounded-sm"
+        className="w-[80%] lg:w-[75%] mx-auto rounded-md"
       />
     </div>
   );
