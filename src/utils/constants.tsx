@@ -135,7 +135,7 @@ const backEndSkills = [
   {
     id: 4,
     image:
-      "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+      "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=256",
     title: "Postman",
   },
 ];
@@ -216,7 +216,7 @@ const otherDevTools = [
     id: 13,
     title: "Canva",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
+      "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/2560px-Canva_Logo.svg.png",
   },
 ];
 
@@ -258,7 +258,8 @@ const projectsDetails: IProject[] = [
     image: SeekhoShowPage,
     hoverImage: SeekhoVideoPage,
     projectType: "",
-    techStack: "React | JavaScript | Material UI | Redux | Tailwind",
+    techStack:
+      "React | JavaScript | Material UI | Bootstrap | Redux | Tailwind",
     // liveLink: "",
     // githubLink: "",
     flexRow: "lg:!flex-row",
